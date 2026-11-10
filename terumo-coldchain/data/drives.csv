@@ -1,0 +1,1092 @@
+drive_id,date,collecting_site_id,county,venue_type,registered_donors,donations_collected,donors_deferred
+DRV-00003,2025-09-04,RBTC-NBO,Nairobi,community_event,66,63,3
+DRV-00004,2025-09-04,RBTC-NBO,Nairobi,church,23,22,1
+DRV-00007,2025-09-05,RBTC-KSM,Kisumu,university_college,48,45,3
+DRV-00008,2025-09-05,RBTC-ELD,Uasin Gishu,secondary_school,85,74,11
+DRV-00009,2025-09-05,SAT-MKS,Machakos,secondary_school,99,85,10
+DRV-00010,2025-09-06,RBTC-NBO,Nairobi,church,55,42,10
+DRV-00011,2025-09-06,RBTC-NBO,Nairobi,secondary_school,83,71,9
+DRV-00012,2025-09-06,RBTC-NBO,Nairobi,secondary_school,54,47,6
+DRV-00013,2025-09-07,RBTC-NBO,Nairobi,secondary_school,77,72,2
+DRV-00015,2025-09-08,RBTC-NBO,Nairobi,community_event,45,40,5
+DRV-00016,2025-09-08,RBTC-NBO,Nairobi,secondary_school,56,50,5
+DRV-00017,2025-09-08,SAT-MKS,Machakos,secondary_school,65,61,3
+DRV-00018,2025-09-09,RBTC-NBO,Nairobi,secondary_school,80,70,8
+DRV-00019,2025-09-09,RBTC-KSM,Kisumu,fixed_site_walk_in,7,7,0
+DRV-00020,2025-09-09,RBTC-NKR,Nakuru,university_college,81,69,12
+DRV-00021,2025-09-09,SAT-KTL,Trans Nzoia,university_college,48,44,4
+DRV-00022,2025-09-09,SAT-KTL,Trans Nzoia,secondary_school,32,27,4
+DRV-00023,2025-09-10,RBTC-NBO,Nairobi,secondary_school,43,38,5
+DRV-00025,2025-09-10,RBTC-MSA,Mombasa,corporate,38,32,4
+DRV-00026,2025-09-10,RBTC-ELD,Uasin Gishu,corporate,53,46,5
+DRV-00027,2025-09-11,RBTC-NKR,Nakuru,community_event,84,77,4
+DRV-00028,2025-09-12,RBTC-NBO,Nairobi,university_college,77,64,11
+DRV-00029,2025-09-12,RBTC-MSA,Mombasa,community_event,47,42,4
+DRV-00030,2025-09-12,RBTC-EMB,Embu,fixed_site_walk_in,11,10,1
+DRV-00032,2025-09-13,SAT-KTL,Trans Nzoia,community_event,58,48,9
+DRV-00033,2025-09-13,SAT-LDW,Turkana,secondary_school,86,80,3
+DRV-00036,2025-09-17,RBTC-NKR,Nakuru,secondary_school,97,80,14
+DRV-00037,2025-09-17,RBTC-NKR,Nakuru,fixed_site_walk_in,13,8,5
+DRV-00038,2025-09-18,RBTC-ELD,Uasin Gishu,secondary_school,77,69,4
+DRV-00039,2025-09-18,SAT-KTL,Trans Nzoia,secondary_school,73,66,5
+DRV-00041,2025-09-19,SAT-MLD,Kilifi,university_college,49,43,4
+DRV-00042,2025-09-20,RBTC-ELD,Uasin Gishu,market_or_stage,19,17,1
+DRV-00045,2025-09-22,RBTC-NBO,Nairobi,community_event,35,31,3
+DRV-00046,2025-09-22,RBTC-NBO,Nairobi,fixed_site_walk_in,12,9,3
+DRV-00047,2025-09-23,RBTC-NBO,Nairobi,university_college,38,32,5
+DRV-00048,2025-09-23,RBTC-NBO,Nairobi,church,23,19,3
+DRV-00050,2025-09-23,SAT-KSI,Kisii,mosque,38,35,3
+DRV-00051,2025-09-23,SAT-MKS,Machakos,church,32,29,3
+DRV-00052,2025-09-24,RBTC-NBO,Nairobi,secondary_school,71,62,9
+DRV-00053,2025-09-24,RBTC-NKR,Nakuru,secondary_school,62,51,11
+DRV-00054,2025-09-24,SAT-NYR,Nyeri,secondary_school,66,60,6
+DRV-00055,2025-09-25,RBTC-NBO,Nairobi,community_event,28,25,3
+DRV-00056,2025-09-25,RBTC-ELD,Uasin Gishu,market_or_stage,19,16,3
+DRV-00057,2025-09-25,RBTC-NKR,Nakuru,university_college,66,58,8
+DRV-00058,2025-09-26,RBTC-NBO,Nairobi,secondary_school,75,64,10
+DRV-00059,2025-09-26,RBTC-MSA,Mombasa,fixed_site_walk_in,13,13,0
+DRV-00060,2025-09-26,SAT-KTL,Trans Nzoia,corporate,41,34,7
+DRV-00061,2025-09-26,SAT-MLD,Kilifi,university_college,98,81,15
+DRV-00062,2025-09-27,RBTC-MSA,Mombasa,university_college,65,55,8
+DRV-00063,2025-09-27,RBTC-MSA,Mombasa,university_college,110,94,14
+DRV-00064,2025-09-27,RBTC-MSA,Mombasa,fixed_site_walk_in,11,11,0
+DRV-00065,2025-09-27,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,7,6,1
+DRV-00066,2025-09-27,RBTC-ELD,Uasin Gishu,corporate,23,18,4
+DRV-00067,2025-09-28,RBTC-NBO,Nairobi,university_college,49,46,2
+DRV-00068,2025-09-28,RBTC-MSA,Mombasa,church,38,32,4
+DRV-00070,2025-09-29,SAT-MLD,Kilifi,market_or_stage,29,27,1
+DRV-00071,2025-09-30,RBTC-NBO,Nairobi,university_college,83,71,12
+DRV-00072,2025-09-30,SAT-KSI,Kisii,market_or_stage,41,37,3
+DRV-00073,2025-10-01,RBTC-MSA,Mombasa,secondary_school,43,36,5
+DRV-00074,2025-10-01,SAT-MKS,Machakos,church,46,43,2
+DRV-00075,2025-10-02,RBTC-NBO,Nairobi,corporate,27,25,2
+DRV-00076,2025-10-02,SAT-KAK,Kakamega,corporate,30,23,5
+DRV-00077,2025-10-02,SAT-KTL,Trans Nzoia,university_college,71,60,11
+DRV-00078,2025-10-03,RBTC-MSA,Mombasa,corporate,62,54,5
+DRV-00079,2025-10-03,RBTC-MSA,Mombasa,secondary_school,64,55,7
+DRV-00080,2025-10-03,RBTC-ELD,Uasin Gishu,secondary_school,50,47,3
+DRV-00082,2025-10-03,SAT-KAK,Kakamega,secondary_school,65,54,9
+DRV-00084,2025-10-04,RBTC-KSM,Kisumu,fixed_site_walk_in,16,12,3
+DRV-00085,2025-10-05,RBTC-MSA,Mombasa,university_college,35,29,5
+DRV-00086,2025-10-05,RBTC-NKR,Nakuru,secondary_school,21,19,2
+DRV-00087,2025-10-06,RBTC-MSA,Mombasa,secondary_school,50,42,5
+DRV-00088,2025-10-06,RBTC-KSM,Kisumu,church,28,26,2
+DRV-00089,2025-10-07,SAT-MKS,Machakos,church,37,34,2
+DRV-00090,2025-10-07,SAT-KTL,Trans Nzoia,secondary_school,32,28,3
+DRV-00091,2025-10-08,RBTC-NBO,Nairobi,fixed_site_walk_in,12,10,2
+DRV-00092,2025-10-08,RBTC-KSM,Kisumu,university_college,66,59,7
+DRV-00093,2025-10-08,RBTC-NKR,Nakuru,corporate,63,54,7
+DRV-00094,2025-10-09,RBTC-NBO,Nairobi,community_event,63,53,7
+DRV-00095,2025-10-09,SAT-KAK,Kakamega,secondary_school,60,52,5
+DRV-00096,2025-10-09,SAT-MRU,Meru,university_college,81,66,14
+DRV-00097,2025-10-10,RBTC-MSA,Mombasa,secondary_school,80,70,7
+DRV-00098,2025-10-10,RBTC-KSM,Kisumu,secondary_school,56,48,8
+DRV-00099,2025-10-10,RBTC-ELD,Uasin Gishu,church,31,25,6
+DRV-00100,2025-10-10,RBTC-NKR,Nakuru,secondary_school,73,60,10
+DRV-00101,2025-10-10,SAT-GSA,Garissa,secondary_school,75,64,10
+DRV-00102,2025-10-11,RBTC-NBO,Nairobi,fixed_site_walk_in,14,9,4
+DRV-00103,2025-10-11,RBTC-ELD,Uasin Gishu,corporate,42,32,9
+DRV-00104,2025-10-12,RBTC-NBO,Nairobi,market_or_stage,22,19,3
+DRV-00105,2025-10-12,RBTC-NKR,Nakuru,church,18,16,0
+DRV-00106,2025-10-13,RBTC-MSA,Mombasa,secondary_school,78,67,9
+DRV-00107,2025-10-13,RBTC-NKR,Nakuru,secondary_school,78,72,4
+DRV-00108,2025-10-13,SAT-KAK,Kakamega,church,33,32,1
+DRV-00109,2025-10-13,SAT-KTL,Trans Nzoia,secondary_school,34,31,3
+DRV-00110,2025-10-15,RBTC-NBO,Nairobi,market_or_stage,16,14,2
+DRV-00111,2025-10-15,RBTC-MSA,Mombasa,secondary_school,54,49,5
+DRV-00112,2025-10-15,RBTC-EMB,Embu,church,27,23,2
+DRV-00113,2025-10-15,SAT-KTL,Trans Nzoia,secondary_school,76,62,12
+DRV-00114,2025-10-16,RBTC-NBO,Nairobi,market_or_stage,29,24,5
+DRV-00115,2025-10-16,RBTC-KSM,Kisumu,community_event,47,46,1
+DRV-00116,2025-10-17,RBTC-EMB,Embu,secondary_school,89,79,8
+DRV-00117,2025-10-17,SAT-KAK,Kakamega,university_college,97,84,11
+DRV-00118,2025-10-17,SAT-KSI,Kisii,corporate,29,26,1
+DRV-00119,2025-10-18,RBTC-NBO,Nairobi,corporate,60,50,8
+DRV-00120,2025-10-18,RBTC-NBO,Nairobi,university_college,80,66,14
+DRV-00121,2025-10-18,SAT-NYR,Nyeri,secondary_school,54,44,9
+DRV-00122,2025-10-19,RBTC-NBO,Nairobi,community_event,29,26,3
+DRV-00123,2025-10-20,RBTC-ELD,Uasin Gishu,church,39,34,4
+DRV-00124,2025-10-21,RBTC-MSA,Mombasa,secondary_school,44,42,1
+DRV-00125,2025-10-21,SAT-NYR,Nyeri,secondary_school,75,68,4
+DRV-00126,2025-10-21,SAT-NYR,Nyeri,secondary_school,60,51,9
+DRV-00127,2025-10-22,RBTC-NBO,Nairobi,secondary_school,69,62,5
+DRV-00128,2025-10-22,RBTC-ELD,Uasin Gishu,corporate,42,33,6
+DRV-00129,2025-10-23,SAT-MLD,Kilifi,secondary_school,57,45,11
+DRV-00130,2025-10-24,RBTC-KSM,Kisumu,market_or_stage,27,21,5
+DRV-00131,2025-10-25,RBTC-NBO,Nairobi,community_event,62,56,4
+DRV-00132,2025-10-25,SAT-MLD,Kilifi,fixed_site_walk_in,14,10,4
+DRV-00133,2025-10-26,RBTC-NBO,Nairobi,church,39,36,2
+DRV-00134,2025-10-26,RBTC-NBO,Nairobi,church,26,22,2
+DRV-00135,2025-10-26,RBTC-NBO,Nairobi,fixed_site_walk_in,19,19,0
+DRV-00136,2025-10-27,RBTC-NBO,Nairobi,fixed_site_walk_in,8,6,1
+DRV-00137,2025-10-27,RBTC-NBO,Nairobi,fixed_site_walk_in,10,6,3
+DRV-00138,2025-10-29,RBTC-NBO,Nairobi,fixed_site_walk_in,8,6,2
+DRV-00139,2025-10-29,RBTC-KSM,Kisumu,fixed_site_walk_in,12,11,1
+DRV-00140,2025-10-30,RBTC-MSA,Mombasa,market_or_stage,26,24,2
+DRV-00141,2025-10-31,RBTC-NBO,Nairobi,mosque,23,19,3
+DRV-00142,2025-11-01,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,13,10,3
+DRV-00143,2025-11-01,RBTC-NKR,Nakuru,university_college,87,77,10
+DRV-00144,2025-11-01,RBTC-NKR,Nakuru,market_or_stage,24,22,2
+DRV-00145,2025-11-02,RBTC-KSM,Kisumu,fixed_site_walk_in,14,13,0
+DRV-00146,2025-11-03,RBTC-NBO,Nairobi,community_event,72,60,12
+DRV-00147,2025-11-03,RBTC-ELD,Uasin Gishu,corporate,36,34,2
+DRV-00148,2025-11-03,SAT-KSI,Kisii,community_event,51,45,6
+DRV-00149,2025-11-04,RBTC-MSA,Mombasa,corporate,46,39,6
+DRV-00150,2025-11-04,RBTC-ELD,Uasin Gishu,university_college,110,98,10
+DRV-00151,2025-11-05,RBTC-NKR,Nakuru,church,26,24,2
+DRV-00152,2025-11-05,RBTC-NKR,Nakuru,church,25,22,3
+DRV-00153,2025-11-06,RBTC-NBO,Nairobi,fixed_site_walk_in,7,7,0
+DRV-00154,2025-11-06,RBTC-NBO,Nairobi,church,33,29,3
+DRV-00155,2025-11-09,RBTC-NKR,Nakuru,church,33,27,6
+DRV-00156,2025-11-10,RBTC-ELD,Uasin Gishu,church,42,37,5
+DRV-00157,2025-11-10,SAT-MKS,Machakos,mosque,37,31,5
+DRV-00158,2025-11-11,RBTC-NBO,Nairobi,fixed_site_walk_in,8,7,1
+DRV-00159,2025-11-11,RBTC-NBO,Nairobi,church,37,30,6
+DRV-00160,2025-11-11,RBTC-NKR,Nakuru,church,38,33,4
+DRV-00161,2025-11-11,RBTC-NKR,Nakuru,church,26,23,2
+DRV-00162,2025-11-12,RBTC-NBO,Nairobi,market_or_stage,15,14,1
+DRV-00163,2025-11-12,RBTC-MSA,Mombasa,fixed_site_walk_in,8,7,1
+DRV-00164,2025-11-12,RBTC-KSM,Kisumu,church,11,10,1
+DRV-00165,2025-11-12,RBTC-ELD,Uasin Gishu,church,36,32,3
+DRV-00166,2025-11-12,RBTC-NKR,Nakuru,secondary_school,84,71,9
+DRV-00167,2025-11-13,SAT-KAK,Kakamega,church,43,38,5
+DRV-00168,2025-11-14,RBTC-MSA,Mombasa,fixed_site_walk_in,12,11,0
+DRV-00169,2025-11-15,RBTC-NKR,Nakuru,church,49,42,7
+DRV-00170,2025-11-15,RBTC-NKR,Nakuru,fixed_site_walk_in,16,16,0
+DRV-00171,2025-11-16,SAT-KSI,Kisii,corporate,31,26,3
+DRV-00172,2025-11-17,RBTC-MSA,Mombasa,fixed_site_walk_in,15,11,4
+DRV-00173,2025-11-17,RBTC-ELD,Uasin Gishu,church,51,48,3
+DRV-00174,2025-11-17,RBTC-EMB,Embu,university_college,123,103,19
+DRV-00175,2025-11-17,SAT-MKS,Machakos,church,48,33,15
+DRV-00176,2025-11-18,RBTC-NBO,Nairobi,church,39,32,6
+DRV-00177,2025-11-18,RBTC-NBO,Nairobi,corporate,9,9,0
+DRV-00178,2025-11-18,RBTC-KSM,Kisumu,market_or_stage,27,26,1
+DRV-00179,2025-11-18,SAT-KSI,Kisii,fixed_site_walk_in,16,15,1
+DRV-00180,2025-11-18,SAT-LDW,Turkana,mosque,18,18,0
+DRV-00181,2025-11-19,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,16,14,1
+DRV-00182,2025-11-19,SAT-KAK,Kakamega,mosque,21,21,0
+DRV-00183,2025-11-21,RBTC-KSM,Kisumu,university_college,97,85,10
+DRV-00184,2025-11-22,RBTC-ELD,Uasin Gishu,corporate,39,33,5
+DRV-00185,2025-11-22,RBTC-ELD,Uasin Gishu,market_or_stage,18,15,3
+DRV-00186,2025-11-24,RBTC-MSA,Mombasa,market_or_stage,22,18,3
+DRV-00187,2025-11-24,RBTC-KSM,Kisumu,market_or_stage,17,13,3
+DRV-00188,2025-11-25,RBTC-KSM,Kisumu,university_college,114,95,10
+DRV-00189,2025-11-26,RBTC-KSM,Kisumu,corporate,33,26,4
+DRV-00190,2025-11-27,SAT-NYR,Nyeri,university_college,84,75,7
+DRV-00191,2025-11-28,RBTC-KSM,Kisumu,market_or_stage,16,12,4
+DRV-00192,2025-11-28,RBTC-KSM,Kisumu,fixed_site_walk_in,5,5,0
+DRV-00193,2025-11-28,RBTC-KSM,Kisumu,mosque,18,18,0
+DRV-00194,2025-11-28,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,13,13,0
+DRV-00195,2025-11-29,RBTC-NBO,Nairobi,fixed_site_walk_in,14,13,1
+DRV-00196,2025-11-29,RBTC-MSA,Mombasa,community_event,32,31,1
+DRV-00197,2025-11-29,RBTC-MSA,Mombasa,community_event,48,37,6
+DRV-00198,2025-11-29,RBTC-MSA,Mombasa,community_event,33,30,3
+DRV-00199,2025-12-02,RBTC-NBO,Nairobi,corporate,53,50,3
+DRV-00200,2025-12-02,RBTC-ELD,Uasin Gishu,community_event,40,34,6
+DRV-00201,2025-12-02,RBTC-NKR,Nakuru,church,23,18,4
+DRV-00202,2025-12-03,SAT-MKS,Machakos,community_event,42,35,5
+DRV-00203,2025-12-03,SAT-KTL,Trans Nzoia,church,48,39,8
+DRV-00204,2025-12-04,RBTC-NBO,Nairobi,fixed_site_walk_in,18,16,2
+DRV-00205,2025-12-04,RBTC-NKR,Nakuru,market_or_stage,18,17,1
+DRV-00206,2025-12-04,SAT-KTL,Trans Nzoia,church,57,46,7
+DRV-00207,2025-12-05,RBTC-NBO,Nairobi,market_or_stage,34,32,2
+DRV-00208,2025-12-05,RBTC-KSM,Kisumu,mosque,50,44,4
+DRV-00209,2025-12-05,RBTC-KSM,Kisumu,mosque,18,15,3
+DRV-00210,2025-12-05,SAT-LDW,Turkana,mosque,19,17,1
+DRV-00211,2025-12-06,RBTC-NKR,Nakuru,community_event,45,36,8
+DRV-00212,2025-12-06,RBTC-NKR,Nakuru,church,31,26,5
+DRV-00213,2025-12-07,RBTC-NBO,Nairobi,church,5,4,1
+DRV-00214,2025-12-07,RBTC-MSA,Mombasa,church,30,26,4
+DRV-00215,2025-12-08,RBTC-MSA,Mombasa,market_or_stage,18,17,1
+DRV-00216,2025-12-08,RBTC-KSM,Kisumu,market_or_stage,22,20,2
+DRV-00217,2025-12-08,RBTC-NKR,Nakuru,corporate,22,16,6
+DRV-00218,2025-12-09,RBTC-NKR,Nakuru,university_college,58,50,6
+DRV-00219,2025-12-09,RBTC-EMB,Embu,church,50,45,4
+DRV-00220,2025-12-10,RBTC-NBO,Nairobi,fixed_site_walk_in,9,8,1
+DRV-00221,2025-12-10,RBTC-NBO,Nairobi,church,53,51,2
+DRV-00222,2025-12-10,RBTC-NBO,Nairobi,market_or_stage,27,24,3
+DRV-00223,2025-12-10,RBTC-MSA,Mombasa,church,42,37,1
+DRV-00224,2025-12-11,RBTC-NBO,Nairobi,market_or_stage,12,11,0
+DRV-00225,2025-12-11,RBTC-KSM,Kisumu,university_college,127,108,14
+DRV-00226,2025-12-11,RBTC-EMB,Embu,university_college,72,65,6
+DRV-00227,2025-12-11,RBTC-EMB,Embu,community_event,37,36,1
+DRV-00228,2025-12-11,SAT-MRU,Meru,church,37,31,4
+DRV-00229,2025-12-12,RBTC-NBO,Nairobi,secondary_school,49,43,6
+DRV-00230,2025-12-12,RBTC-NBO,Nairobi,fixed_site_walk_in,16,12,3
+DRV-00231,2025-12-12,RBTC-MSA,Mombasa,church,38,35,2
+DRV-00232,2025-12-12,SAT-MKS,Machakos,corporate,38,32,3
+DRV-00233,2025-12-13,RBTC-NKR,Nakuru,church,31,31,0
+DRV-00234,2025-12-13,SAT-KSI,Kisii,corporate,37,31,2
+DRV-00235,2025-12-14,RBTC-NBO,Nairobi,corporate,40,31,6
+DRV-00236,2025-12-14,SAT-KSI,Kisii,market_or_stage,23,17,5
+DRV-00237,2025-12-15,RBTC-NBO,Nairobi,university_college,82,73,7
+DRV-00238,2025-12-15,RBTC-EMB,Embu,church,22,21,0
+DRV-00239,2025-12-16,RBTC-NKR,Nakuru,fixed_site_walk_in,9,9,0
+DRV-00240,2025-12-16,SAT-KTL,Trans Nzoia,community_event,41,36,3
+DRV-00241,2025-12-17,RBTC-NBO,Nairobi,mosque,16,12,3
+DRV-00242,2025-12-17,RBTC-NBO,Nairobi,corporate,57,49,7
+DRV-00243,2025-12-17,RBTC-MSA,Mombasa,corporate,49,44,4
+DRV-00244,2025-12-18,RBTC-EMB,Embu,university_college,76,63,11
+DRV-00245,2025-12-19,RBTC-MSA,Mombasa,mosque,33,28,3
+DRV-00246,2025-12-19,RBTC-ELD,Uasin Gishu,church,24,21,2
+DRV-00247,2025-12-20,RBTC-ELD,Uasin Gishu,church,17,16,1
+DRV-00248,2025-12-20,RBTC-ELD,Uasin Gishu,community_event,24,18,6
+DRV-00249,2025-12-20,SAT-MLD,Kilifi,mosque,46,42,4
+DRV-00250,2025-12-21,RBTC-MSA,Mombasa,fixed_site_walk_in,13,13,0
+DRV-00251,2025-12-22,RBTC-NBO,Nairobi,university_college,42,38,4
+DRV-00252,2025-12-22,RBTC-KSM,Kisumu,market_or_stage,18,16,1
+DRV-00253,2025-12-22,SAT-NYR,Nyeri,market_or_stage,40,36,4
+DRV-00254,2025-12-23,RBTC-MSA,Mombasa,fixed_site_walk_in,10,9,1
+DRV-00255,2025-12-23,RBTC-NKR,Nakuru,market_or_stage,20,20,0
+DRV-00256,2025-12-24,RBTC-NBO,Nairobi,community_event,45,40,4
+DRV-00257,2025-12-24,RBTC-NBO,Nairobi,corporate,33,31,2
+DRV-00258,2025-12-24,RBTC-EMB,Embu,church,36,34,2
+DRV-00259,2025-12-24,RBTC-EMB,Embu,corporate,56,49,5
+DRV-00260,2025-12-25,RBTC-KSM,Kisumu,church,23,19,4
+DRV-00261,2025-12-25,RBTC-NKR,Nakuru,market_or_stage,27,26,1
+DRV-00262,2025-12-26,SAT-NYR,Nyeri,university_college,49,44,5
+DRV-00263,2025-12-27,SAT-KAK,Kakamega,corporate,45,39,5
+DRV-00264,2025-12-27,SAT-KTL,Trans Nzoia,market_or_stage,28,24,4
+DRV-00265,2025-12-29,RBTC-NBO,Nairobi,church,8,6,2
+DRV-00266,2025-12-29,RBTC-NKR,Nakuru,church,37,32,5
+DRV-00267,2025-12-30,RBTC-KSM,Kisumu,community_event,24,20,4
+DRV-00268,2025-12-30,RBTC-ELD,Uasin Gishu,church,36,27,7
+DRV-00269,2025-12-30,SAT-LDW,Turkana,university_college,74,64,10
+DRV-00270,2025-12-31,RBTC-MSA,Mombasa,church,30,24,5
+DRV-00271,2025-12-31,RBTC-NKR,Nakuru,community_event,56,47,8
+DRV-00272,2025-12-31,RBTC-EMB,Embu,secondary_school,72,65,6
+DRV-00273,2026-01-01,RBTC-ELD,Uasin Gishu,community_event,48,43,4
+DRV-00274,2026-01-02,RBTC-ELD,Uasin Gishu,university_college,135,125,9
+DRV-00275,2026-01-02,RBTC-ELD,Uasin Gishu,church,27,20,6
+DRV-00276,2026-01-02,SAT-KTL,Trans Nzoia,university_college,72,65,6
+DRV-00277,2026-01-02,SAT-MLD,Kilifi,corporate,35,29,4
+DRV-00278,2026-01-02,SAT-MLD,Kilifi,market_or_stage,28,25,3
+DRV-00279,2026-01-03,RBTC-NBO,Nairobi,university_college,51,43,7
+DRV-00280,2026-01-03,RBTC-MSA,Mombasa,fixed_site_walk_in,21,20,1
+DRV-00281,2026-01-03,RBTC-ELD,Uasin Gishu,corporate,16,15,1
+DRV-00282,2026-01-05,RBTC-NBO,Nairobi,secondary_school,56,46,7
+DRV-00283,2026-01-05,RBTC-MSA,Mombasa,market_or_stage,13,10,2
+DRV-00284,2026-01-05,SAT-MKS,Machakos,church,22,21,1
+DRV-00285,2026-01-05,SAT-MLD,Kilifi,university_college,59,50,9
+DRV-00286,2026-01-06,RBTC-ELD,Uasin Gishu,secondary_school,48,39,9
+DRV-00287,2026-01-06,RBTC-ELD,Uasin Gishu,secondary_school,61,50,10
+DRV-00288,2026-01-06,SAT-KAK,Kakamega,fixed_site_walk_in,7,7,0
+DRV-00289,2026-01-07,SAT-GSA,Garissa,secondary_school,79,64,14
+DRV-00290,2026-01-08,RBTC-NBO,Nairobi,secondary_school,46,35,10
+DRV-00291,2026-01-08,RBTC-NBO,Nairobi,secondary_school,102,90,11
+DRV-00292,2026-01-08,RBTC-MSA,Mombasa,mosque,35,33,2
+DRV-00293,2026-01-08,RBTC-EMB,Embu,market_or_stage,18,17,1
+DRV-00294,2026-01-09,RBTC-ELD,Uasin Gishu,church,31,29,2
+DRV-00295,2026-01-09,RBTC-ELD,Uasin Gishu,secondary_school,29,25,2
+DRV-00296,2026-01-10,RBTC-MSA,Mombasa,secondary_school,47,35,10
+DRV-00297,2026-01-10,RBTC-MSA,Mombasa,church,24,21,1
+DRV-00298,2026-01-10,SAT-GSA,Garissa,secondary_school,79,70,8
+DRV-00299,2026-01-11,RBTC-MSA,Mombasa,university_college,31,24,7
+DRV-00300,2026-01-11,RBTC-NKR,Nakuru,community_event,68,57,8
+DRV-00301,2026-01-11,SAT-NYR,Nyeri,church,52,46,4
+DRV-00302,2026-01-12,SAT-MRU,Meru,community_event,69,62,6
+DRV-00303,2026-01-14,SAT-KSI,Kisii,market_or_stage,31,26,4
+DRV-00304,2026-01-14,SAT-MKS,Machakos,market_or_stage,44,40,2
+DRV-00305,2026-01-14,SAT-LDW,Turkana,community_event,45,38,4
+DRV-00306,2026-01-15,RBTC-NBO,Nairobi,community_event,23,19,3
+DRV-00307,2026-01-15,RBTC-NBO,Nairobi,secondary_school,45,38,6
+DRV-00308,2026-01-15,RBTC-NBO,Nairobi,secondary_school,80,65,14
+DRV-00309,2026-01-15,RBTC-ELD,Uasin Gishu,market_or_stage,22,19,3
+DRV-00310,2026-01-15,SAT-KSI,Kisii,church,41,30,9
+DRV-00311,2026-01-15,SAT-MLD,Kilifi,secondary_school,41,35,6
+DRV-00312,2026-01-16,RBTC-KSM,Kisumu,university_college,83,72,11
+DRV-00313,2026-01-16,SAT-MRU,Meru,church,35,30,4
+DRV-00314,2026-01-17,SAT-KAK,Kakamega,secondary_school,63,51,11
+DRV-00315,2026-01-18,RBTC-NBO,Nairobi,fixed_site_walk_in,11,11,0
+DRV-00316,2026-01-18,RBTC-KSM,Kisumu,university_college,80,69,10
+DRV-00317,2026-01-18,RBTC-KSM,Kisumu,church,41,37,4
+DRV-00318,2026-01-18,RBTC-ELD,Uasin Gishu,secondary_school,78,71,6
+DRV-00319,2026-01-19,RBTC-NBO,Nairobi,university_college,105,93,9
+DRV-00320,2026-01-19,RBTC-KSM,Kisumu,university_college,81,73,7
+DRV-00321,2026-01-19,RBTC-NKR,Nakuru,corporate,39,35,3
+DRV-00322,2026-01-19,RBTC-NKR,Nakuru,church,20,18,2
+DRV-00323,2026-01-19,SAT-KSI,Kisii,university_college,48,42,4
+DRV-00324,2026-01-20,RBTC-NBO,Nairobi,secondary_school,59,54,4
+DRV-00325,2026-01-20,RBTC-ELD,Uasin Gishu,secondary_school,83,72,9
+DRV-00326,2026-01-20,SAT-MLD,Kilifi,secondary_school,85,68,16
+DRV-00327,2026-01-21,RBTC-NBO,Nairobi,church,46,43,2
+DRV-00328,2026-01-21,RBTC-NBO,Nairobi,church,30,26,4
+DRV-00329,2026-01-21,RBTC-KSM,Kisumu,corporate,59,51,7
+DRV-00330,2026-01-21,RBTC-ELD,Uasin Gishu,secondary_school,61,54,5
+DRV-00331,2026-01-21,SAT-NYR,Nyeri,secondary_school,75,65,7
+DRV-00332,2026-01-22,RBTC-NBO,Nairobi,secondary_school,59,51,7
+DRV-00333,2026-01-22,RBTC-MSA,Mombasa,corporate,45,39,5
+DRV-00334,2026-01-22,RBTC-ELD,Uasin Gishu,community_event,47,45,2
+DRV-00335,2026-01-23,RBTC-NBO,Nairobi,mosque,24,21,2
+DRV-00336,2026-01-23,SAT-GSA,Garissa,church,37,30,5
+DRV-00337,2026-01-24,RBTC-MSA,Mombasa,market_or_stage,33,31,2
+DRV-00338,2026-01-25,RBTC-NBO,Nairobi,corporate,39,29,9
+DRV-00339,2026-01-25,RBTC-NKR,Nakuru,church,55,49,5
+DRV-00340,2026-01-25,RBTC-EMB,Embu,secondary_school,72,55,17
+DRV-00341,2026-01-25,SAT-MLD,Kilifi,secondary_school,34,29,2
+DRV-00342,2026-01-26,RBTC-KSM,Kisumu,secondary_school,66,60,3
+DRV-00343,2026-01-26,RBTC-NKR,Nakuru,secondary_school,92,74,14
+DRV-00344,2026-01-27,RBTC-NBO,Nairobi,secondary_school,111,98,10
+DRV-00345,2026-01-28,RBTC-MSA,Mombasa,church,26,20,5
+DRV-00346,2026-01-29,RBTC-NKR,Nakuru,secondary_school,67,56,9
+DRV-00347,2026-01-29,SAT-KTL,Trans Nzoia,secondary_school,86,74,10
+DRV-00348,2026-01-30,RBTC-KSM,Kisumu,fixed_site_walk_in,13,13,0
+DRV-00349,2026-01-30,RBTC-NKR,Nakuru,secondary_school,76,71,4
+DRV-00350,2026-01-31,RBTC-NBO,Nairobi,secondary_school,43,38,3
+DRV-00351,2026-01-31,RBTC-NBO,Nairobi,university_college,121,108,11
+DRV-00352,2026-01-31,RBTC-KSM,Kisumu,community_event,34,29,4
+DRV-00353,2026-01-31,SAT-KTL,Trans Nzoia,secondary_school,76,69,7
+DRV-00354,2026-01-31,SAT-MLD,Kilifi,secondary_school,84,71,11
+DRV-00355,2026-02-01,RBTC-NBO,Nairobi,secondary_school,65,58,6
+DRV-00356,2026-02-01,SAT-KSI,Kisii,secondary_school,85,73,8
+DRV-00357,2026-02-02,RBTC-ELD,Uasin Gishu,secondary_school,98,89,9
+DRV-00358,2026-02-02,SAT-KAK,Kakamega,market_or_stage,34,27,7
+DRV-00359,2026-02-02,SAT-LDW,Turkana,university_college,76,65,10
+DRV-00360,2026-02-03,RBTC-NBO,Nairobi,secondary_school,81,73,7
+DRV-00361,2026-02-03,RBTC-NBO,Nairobi,university_college,72,61,8
+DRV-00362,2026-02-03,RBTC-EMB,Embu,corporate,40,36,3
+DRV-00363,2026-02-04,RBTC-NBO,Nairobi,corporate,37,33,2
+DRV-00364,2026-02-04,RBTC-EMB,Embu,secondary_school,92,81,10
+DRV-00365,2026-02-04,SAT-KSI,Kisii,market_or_stage,26,25,1
+DRV-00366,2026-02-05,RBTC-ELD,Uasin Gishu,community_event,60,56,2
+DRV-00367,2026-02-05,RBTC-ELD,Uasin Gishu,church,37,30,6
+DRV-00368,2026-02-05,RBTC-NKR,Nakuru,secondary_school,79,69,8
+DRV-00369,2026-02-05,SAT-KAK,Kakamega,secondary_school,67,55,11
+DRV-00370,2026-02-06,RBTC-MSA,Mombasa,university_college,95,74,19
+DRV-00371,2026-02-06,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,9,7,1
+DRV-00372,2026-02-06,SAT-GSA,Garissa,university_college,98,82,13
+DRV-00373,2026-02-07,RBTC-KSM,Kisumu,secondary_school,49,42,7
+DRV-00374,2026-02-07,RBTC-EMB,Embu,secondary_school,67,60,5
+DRV-00375,2026-02-08,RBTC-MSA,Mombasa,community_event,47,38,9
+DRV-00376,2026-02-08,RBTC-NKR,Nakuru,secondary_school,58,50,8
+DRV-00377,2026-02-08,SAT-GSA,Garissa,university_college,41,38,3
+DRV-00378,2026-02-09,SAT-MLD,Kilifi,secondary_school,49,39,8
+DRV-00379,2026-02-10,RBTC-MSA,Mombasa,corporate,44,33,10
+DRV-00380,2026-02-10,RBTC-NKR,Nakuru,university_college,101,80,15
+DRV-00381,2026-02-10,SAT-GSA,Garissa,university_college,86,77,9
+DRV-00382,2026-02-10,SAT-KTL,Trans Nzoia,secondary_school,24,21,3
+DRV-00383,2026-02-11,RBTC-MSA,Mombasa,corporate,16,13,2
+DRV-00384,2026-02-11,RBTC-KSM,Kisumu,church,13,9,2
+DRV-00385,2026-02-11,SAT-MKS,Machakos,university_college,38,35,2
+DRV-00386,2026-02-11,SAT-MRU,Meru,secondary_school,51,45,3
+DRV-00387,2026-02-11,SAT-KTL,Trans Nzoia,secondary_school,98,80,12
+DRV-00388,2026-02-12,RBTC-NBO,Nairobi,mosque,37,33,4
+DRV-00389,2026-02-12,RBTC-NBO,Nairobi,university_college,54,42,10
+DRV-00390,2026-02-12,RBTC-ELD,Uasin Gishu,church,34,28,6
+DRV-00391,2026-02-12,RBTC-NKR,Nakuru,church,23,20,3
+DRV-00392,2026-02-13,RBTC-MSA,Mombasa,corporate,41,36,3
+DRV-00393,2026-02-13,RBTC-ELD,Uasin Gishu,church,11,10,1
+DRV-00394,2026-02-13,RBTC-NKR,Nakuru,secondary_school,100,88,10
+DRV-00395,2026-02-13,RBTC-NKR,Nakuru,market_or_stage,23,16,6
+DRV-00396,2026-02-13,RBTC-EMB,Embu,secondary_school,59,54,3
+DRV-00397,2026-02-13,SAT-GSA,Garissa,community_event,37,29,7
+DRV-00398,2026-02-14,RBTC-NBO,Nairobi,university_college,11,9,2
+DRV-00399,2026-02-14,RBTC-MSA,Mombasa,church,40,36,4
+DRV-00400,2026-02-14,RBTC-EMB,Embu,university_college,56,43,7
+DRV-00401,2026-02-16,RBTC-MSA,Mombasa,market_or_stage,19,15,4
+DRV-00402,2026-02-16,RBTC-KSM,Kisumu,market_or_stage,21,20,1
+DRV-00403,2026-02-17,RBTC-NBO,Nairobi,church,5,5,0
+DRV-00404,2026-02-18,RBTC-EMB,Embu,university_college,94,80,13
+DRV-00405,2026-02-18,RBTC-EMB,Embu,church,21,18,3
+DRV-00406,2026-02-19,RBTC-NBO,Nairobi,university_college,59,47,7
+DRV-00407,2026-02-20,RBTC-MSA,Mombasa,mosque,29,27,0
+DRV-00408,2026-02-20,RBTC-MSA,Mombasa,mosque,43,35,7
+DRV-00409,2026-02-20,RBTC-KSM,Kisumu,secondary_school,67,57,8
+DRV-00410,2026-02-20,RBTC-KSM,Kisumu,church,25,20,5
+DRV-00411,2026-02-20,RBTC-ELD,Uasin Gishu,secondary_school,54,41,11
+DRV-00412,2026-02-20,RBTC-ELD,Uasin Gishu,university_college,111,96,12
+DRV-00413,2026-02-20,RBTC-EMB,Embu,mosque,23,20,3
+DRV-00414,2026-02-21,SAT-GSA,Garissa,church,42,33,7
+DRV-00415,2026-02-22,RBTC-KSM,Kisumu,corporate,34,30,3
+DRV-00416,2026-02-22,SAT-MKS,Machakos,university_college,35,28,4
+DRV-00417,2026-02-23,RBTC-NBO,Nairobi,secondary_school,38,30,6
+DRV-00418,2026-02-23,RBTC-KSM,Kisumu,church,36,30,5
+DRV-00419,2026-02-23,SAT-NYR,Nyeri,secondary_school,68,60,6
+DRV-00420,2026-02-24,RBTC-KSM,Kisumu,university_college,34,32,2
+DRV-00421,2026-02-24,SAT-MLD,Kilifi,corporate,68,56,12
+DRV-00422,2026-02-26,RBTC-NBO,Nairobi,market_or_stage,52,43,7
+DRV-00423,2026-02-26,RBTC-MSA,Mombasa,secondary_school,54,51,3
+DRV-00424,2026-02-26,RBTC-MSA,Mombasa,secondary_school,70,62,7
+DRV-00425,2026-02-27,RBTC-NBO,Nairobi,corporate,27,25,2
+DRV-00426,2026-02-27,RBTC-NBO,Nairobi,secondary_school,89,74,13
+DRV-00427,2026-02-27,RBTC-KSM,Kisumu,university_college,50,46,4
+DRV-00428,2026-02-27,RBTC-NKR,Nakuru,corporate,31,27,4
+DRV-00429,2026-02-27,SAT-KAK,Kakamega,mosque,32,29,3
+DRV-00430,2026-02-28,RBTC-MSA,Mombasa,university_college,112,96,15
+DRV-00431,2026-02-28,RBTC-KSM,Kisumu,mosque,28,22,4
+DRV-00432,2026-02-28,RBTC-KSM,Kisumu,market_or_stage,34,29,5
+DRV-00433,2026-02-28,RBTC-ELD,Uasin Gishu,secondary_school,106,95,10
+DRV-00434,2026-03-01,RBTC-NBO,Nairobi,university_college,98,82,15
+DRV-00435,2026-03-03,RBTC-NBO,Nairobi,church,47,40,6
+DRV-00436,2026-03-03,RBTC-NBO,Nairobi,secondary_school,74,63,10
+DRV-00437,2026-03-03,SAT-NYR,Nyeri,university_college,43,35,7
+DRV-00438,2026-03-04,RBTC-MSA,Mombasa,university_college,72,66,3
+DRV-00439,2026-03-04,RBTC-ELD,Uasin Gishu,community_event,32,30,1
+DRV-00440,2026-03-05,RBTC-NBO,Nairobi,university_college,44,39,4
+DRV-00441,2026-03-05,SAT-MRU,Meru,market_or_stage,23,22,1
+DRV-00442,2026-03-06,RBTC-MSA,Mombasa,university_college,70,62,8
+DRV-00443,2026-03-06,RBTC-NKR,Nakuru,church,33,30,3
+DRV-00444,2026-03-06,RBTC-NKR,Nakuru,university_college,63,54,6
+DRV-00445,2026-03-07,SAT-MLD,Kilifi,market_or_stage,37,31,6
+DRV-00446,2026-03-08,RBTC-MSA,Mombasa,church,43,38,4
+DRV-00447,2026-03-08,RBTC-NKR,Nakuru,secondary_school,83,66,14
+DRV-00448,2026-03-09,RBTC-MSA,Mombasa,secondary_school,41,36,4
+DRV-00449,2026-03-09,RBTC-MSA,Mombasa,university_college,128,117,11
+DRV-00450,2026-03-09,RBTC-KSM,Kisumu,church,21,17,2
+DRV-00451,2026-03-09,RBTC-ELD,Uasin Gishu,secondary_school,66,64,1
+DRV-00452,2026-03-09,RBTC-ELD,Uasin Gishu,mosque,25,22,3
+DRV-00453,2026-03-10,RBTC-NBO,Nairobi,church,37,33,4
+DRV-00454,2026-03-10,RBTC-NBO,Nairobi,mosque,30,27,3
+DRV-00455,2026-03-10,RBTC-KSM,Kisumu,mosque,34,31,2
+DRV-00456,2026-03-10,RBTC-NKR,Nakuru,university_college,85,69,13
+DRV-00457,2026-03-11,RBTC-NBO,Nairobi,market_or_stage,21,17,3
+DRV-00458,2026-03-11,RBTC-MSA,Mombasa,university_college,58,53,5
+DRV-00459,2026-03-11,RBTC-NKR,Nakuru,corporate,36,32,3
+DRV-00460,2026-03-12,RBTC-NBO,Nairobi,church,27,23,3
+DRV-00461,2026-03-12,RBTC-EMB,Embu,market_or_stage,26,24,2
+DRV-00462,2026-03-12,RBTC-EMB,Embu,secondary_school,14,13,1
+DRV-00463,2026-03-12,SAT-MRU,Meru,mosque,30,25,4
+DRV-00464,2026-03-14,RBTC-NBO,Nairobi,secondary_school,77,69,7
+DRV-00465,2026-03-14,RBTC-ELD,Uasin Gishu,community_event,28,25,3
+DRV-00466,2026-03-14,RBTC-EMB,Embu,market_or_stage,29,27,2
+DRV-00467,2026-03-14,SAT-KAK,Kakamega,secondary_school,36,34,2
+DRV-00468,2026-03-14,SAT-KTL,Trans Nzoia,community_event,61,50,9
+DRV-00469,2026-03-15,RBTC-ELD,Uasin Gishu,church,38,30,6
+DRV-00470,2026-03-16,RBTC-KSM,Kisumu,secondary_school,86,76,8
+DRV-00471,2026-03-17,RBTC-NBO,Nairobi,mosque,29,26,3
+DRV-00472,2026-03-17,RBTC-ELD,Uasin Gishu,secondary_school,60,43,12
+DRV-00473,2026-03-17,SAT-MRU,Meru,church,28,25,3
+DRV-00474,2026-03-17,SAT-KTL,Trans Nzoia,corporate,17,14,3
+DRV-00475,2026-03-19,RBTC-MSA,Mombasa,secondary_school,66,56,10
+DRV-00476,2026-03-19,RBTC-NKR,Nakuru,secondary_school,105,90,10
+DRV-00477,2026-03-20,RBTC-NBO,Nairobi,university_college,65,59,6
+DRV-00478,2026-03-20,RBTC-NBO,Nairobi,fixed_site_walk_in,14,12,1
+DRV-00479,2026-03-20,RBTC-MSA,Mombasa,church,46,41,4
+DRV-00480,2026-03-20,RBTC-MSA,Mombasa,community_event,34,31,3
+DRV-00481,2026-03-20,SAT-MKS,Machakos,secondary_school,98,87,9
+DRV-00482,2026-03-21,RBTC-NBO,Nairobi,fixed_site_walk_in,13,12,1
+DRV-00483,2026-03-21,RBTC-NBO,Nairobi,university_college,58,49,7
+DRV-00484,2026-03-21,RBTC-MSA,Mombasa,corporate,36,34,1
+DRV-00485,2026-03-22,RBTC-NBO,Nairobi,community_event,49,43,6
+DRV-00486,2026-03-23,RBTC-NBO,Nairobi,market_or_stage,27,24,3
+DRV-00487,2026-03-23,RBTC-KSM,Kisumu,university_college,103,88,10
+DRV-00488,2026-03-23,RBTC-ELD,Uasin Gishu,corporate,41,39,2
+DRV-00489,2026-03-24,RBTC-NBO,Nairobi,university_college,107,92,13
+DRV-00490,2026-03-24,SAT-LDW,Turkana,secondary_school,108,95,13
+DRV-00491,2026-03-25,RBTC-KSM,Kisumu,secondary_school,61,53,8
+DRV-00492,2026-03-26,RBTC-MSA,Mombasa,fixed_site_walk_in,17,17,0
+DRV-00493,2026-03-27,SAT-KSI,Kisii,secondary_school,78,68,7
+DRV-00494,2026-03-28,RBTC-MSA,Mombasa,university_college,97,86,9
+DRV-00495,2026-03-28,SAT-KSI,Kisii,secondary_school,78,67,8
+DRV-00496,2026-03-29,RBTC-MSA,Mombasa,secondary_school,119,101,17
+DRV-00497,2026-03-29,RBTC-KSM,Kisumu,market_or_stage,29,24,3
+DRV-00498,2026-03-31,RBTC-NKR,Nakuru,secondary_school,73,61,10
+DRV-00499,2026-04-01,RBTC-NBO,Nairobi,secondary_school,6,5,1
+DRV-00500,2026-04-01,RBTC-NBO,Nairobi,corporate,46,41,5
+DRV-00501,2026-04-01,RBTC-ELD,Uasin Gishu,market_or_stage,24,19,4
+DRV-00502,2026-04-01,RBTC-EMB,Embu,secondary_school,66,58,7
+DRV-00503,2026-04-02,RBTC-KSM,Kisumu,university_college,55,46,8
+DRV-00504,2026-04-02,RBTC-NKR,Nakuru,market_or_stage,31,26,4
+DRV-00505,2026-04-02,SAT-MRU,Meru,university_college,64,60,1
+DRV-00506,2026-04-03,RBTC-NBO,Nairobi,corporate,31,29,2
+DRV-00507,2026-04-03,RBTC-EMB,Embu,secondary_school,53,48,4
+DRV-00508,2026-04-03,SAT-NYR,Nyeri,community_event,37,32,4
+DRV-00509,2026-04-04,RBTC-NBO,Nairobi,university_college,88,80,7
+DRV-00510,2026-04-04,RBTC-MSA,Mombasa,university_college,33,28,5
+DRV-00511,2026-04-04,RBTC-KSM,Kisumu,community_event,46,38,6
+DRV-00512,2026-04-04,RBTC-ELD,Uasin Gishu,corporate,42,37,3
+DRV-00513,2026-04-04,RBTC-NKR,Nakuru,corporate,34,29,4
+DRV-00514,2026-04-05,RBTC-NBO,Nairobi,mosque,26,20,6
+DRV-00515,2026-04-06,RBTC-MSA,Mombasa,fixed_site_walk_in,13,11,1
+DRV-00516,2026-04-06,SAT-MRU,Meru,church,35,27,8
+DRV-00517,2026-04-07,SAT-MLD,Kilifi,church,35,32,2
+DRV-00518,2026-04-08,RBTC-KSM,Kisumu,fixed_site_walk_in,13,13,0
+DRV-00519,2026-04-09,RBTC-MSA,Mombasa,fixed_site_walk_in,11,11,0
+DRV-00520,2026-04-09,RBTC-MSA,Mombasa,corporate,15,13,1
+DRV-00521,2026-04-09,RBTC-KSM,Kisumu,church,44,37,6
+DRV-00522,2026-04-09,RBTC-NKR,Nakuru,market_or_stage,19,15,4
+DRV-00523,2026-04-09,SAT-NYR,Nyeri,market_or_stage,33,23,7
+DRV-00524,2026-04-10,RBTC-MSA,Mombasa,mosque,34,34,0
+DRV-00525,2026-04-10,RBTC-KSM,Kisumu,fixed_site_walk_in,12,11,1
+DRV-00526,2026-04-10,RBTC-EMB,Embu,church,36,30,6
+DRV-00527,2026-04-11,RBTC-NBO,Nairobi,market_or_stage,13,8,5
+DRV-00528,2026-04-11,RBTC-NBO,Nairobi,market_or_stage,35,32,3
+DRV-00529,2026-04-11,RBTC-NBO,Nairobi,community_event,42,38,3
+DRV-00530,2026-04-11,RBTC-NKR,Nakuru,fixed_site_walk_in,11,10,1
+DRV-00531,2026-04-13,RBTC-NBO,Nairobi,fixed_site_walk_in,18,15,3
+DRV-00532,2026-04-13,RBTC-ELD,Uasin Gishu,corporate,45,38,4
+DRV-00533,2026-04-13,SAT-KAK,Kakamega,church,27,20,6
+DRV-00534,2026-04-14,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,13,11,2
+DRV-00535,2026-04-14,RBTC-ELD,Uasin Gishu,market_or_stage,16,14,2
+DRV-00536,2026-04-14,SAT-KSI,Kisii,fixed_site_walk_in,12,9,3
+DRV-00537,2026-04-15,RBTC-ELD,Uasin Gishu,mosque,44,39,4
+DRV-00538,2026-04-15,RBTC-NKR,Nakuru,fixed_site_walk_in,7,5,2
+DRV-00539,2026-04-15,SAT-KTL,Trans Nzoia,fixed_site_walk_in,11,9,2
+DRV-00540,2026-04-16,RBTC-ELD,Uasin Gishu,mosque,47,43,3
+DRV-00541,2026-04-16,RBTC-NKR,Nakuru,market_or_stage,13,11,2
+DRV-00542,2026-04-16,SAT-KTL,Trans Nzoia,community_event,51,43,6
+DRV-00543,2026-04-17,SAT-KAK,Kakamega,corporate,31,26,4
+DRV-00544,2026-04-17,SAT-KTL,Trans Nzoia,mosque,26,21,3
+DRV-00545,2026-04-18,RBTC-NBO,Nairobi,fixed_site_walk_in,10,10,0
+DRV-00546,2026-04-18,RBTC-NBO,Nairobi,university_college,52,44,7
+DRV-00547,2026-04-18,SAT-NYR,Nyeri,church,37,32,4
+DRV-00548,2026-04-19,RBTC-NBO,Nairobi,community_event,32,31,1
+DRV-00549,2026-04-20,RBTC-NBO,Nairobi,university_college,108,97,9
+DRV-00550,2026-04-20,RBTC-NBO,Nairobi,church,24,23,0
+DRV-00551,2026-04-20,RBTC-NKR,Nakuru,fixed_site_walk_in,10,9,1
+DRV-00552,2026-04-20,RBTC-NKR,Nakuru,university_college,57,54,3
+DRV-00553,2026-04-20,SAT-KAK,Kakamega,corporate,44,38,6
+DRV-00554,2026-04-20,SAT-MLD,Kilifi,church,36,31,5
+DRV-00555,2026-04-21,RBTC-NBO,Nairobi,fixed_site_walk_in,15,13,0
+DRV-00556,2026-04-21,RBTC-NBO,Nairobi,church,20,19,1
+DRV-00557,2026-04-21,RBTC-KSM,Kisumu,community_event,30,27,3
+DRV-00558,2026-04-21,RBTC-ELD,Uasin Gishu,corporate,34,27,6
+DRV-00559,2026-04-21,RBTC-NKR,Nakuru,corporate,12,12,0
+DRV-00560,2026-04-21,SAT-NYR,Nyeri,church,49,47,2
+DRV-00561,2026-04-21,SAT-MLD,Kilifi,fixed_site_walk_in,15,11,3
+DRV-00562,2026-04-22,RBTC-NBO,Nairobi,fixed_site_walk_in,10,9,1
+DRV-00563,2026-04-22,RBTC-MSA,Mombasa,university_college,79,71,7
+DRV-00564,2026-04-23,RBTC-NBO,Nairobi,fixed_site_walk_in,17,14,1
+DRV-00565,2026-04-23,RBTC-KSM,Kisumu,mosque,21,19,2
+DRV-00566,2026-04-23,RBTC-NKR,Nakuru,corporate,44,40,3
+DRV-00567,2026-04-24,RBTC-NBO,Nairobi,mosque,17,13,4
+DRV-00568,2026-04-24,RBTC-KSM,Kisumu,fixed_site_walk_in,13,11,2
+DRV-00569,2026-04-24,RBTC-ELD,Uasin Gishu,church,40,33,6
+DRV-00570,2026-04-24,SAT-KAK,Kakamega,market_or_stage,6,6,0
+DRV-00571,2026-04-25,RBTC-MSA,Mombasa,church,42,37,4
+DRV-00572,2026-04-25,RBTC-KSM,Kisumu,community_event,55,44,9
+DRV-00573,2026-04-25,SAT-KAK,Kakamega,church,34,33,1
+DRV-00574,2026-04-25,SAT-KTL,Trans Nzoia,community_event,50,45,4
+DRV-00575,2026-04-25,SAT-MLD,Kilifi,corporate,38,35,3
+DRV-00576,2026-04-26,RBTC-NKR,Nakuru,community_event,59,48,8
+DRV-00577,2026-04-26,SAT-LDW,Turkana,church,34,29,5
+DRV-00578,2026-04-26,SAT-MLD,Kilifi,church,36,31,4
+DRV-00579,2026-04-27,RBTC-MSA,Mombasa,secondary_school,56,46,8
+DRV-00580,2026-04-27,RBTC-ELD,Uasin Gishu,secondary_school,39,34,5
+DRV-00581,2026-04-27,SAT-KAK,Kakamega,fixed_site_walk_in,7,6,1
+DRV-00582,2026-04-27,SAT-LDW,Turkana,community_event,33,29,4
+DRV-00583,2026-04-28,RBTC-EMB,Embu,secondary_school,59,50,8
+DRV-00584,2026-04-29,RBTC-NBO,Nairobi,secondary_school,43,37,6
+DRV-00585,2026-04-29,RBTC-NBO,Nairobi,church,24,19,5
+DRV-00586,2026-04-29,RBTC-KSM,Kisumu,secondary_school,90,76,10
+DRV-00587,2026-04-29,RBTC-KSM,Kisumu,university_college,81,70,11
+DRV-00588,2026-04-29,RBTC-ELD,Uasin Gishu,community_event,49,39,7
+DRV-00589,2026-04-29,RBTC-NKR,Nakuru,market_or_stage,20,18,1
+DRV-00590,2026-04-29,RBTC-EMB,Embu,church,25,19,4
+DRV-00591,2026-04-29,SAT-KSI,Kisii,secondary_school,67,61,5
+DRV-00592,2026-04-30,RBTC-NBO,Nairobi,secondary_school,73,68,5
+DRV-00593,2026-04-30,RBTC-MSA,Mombasa,community_event,44,40,4
+DRV-00594,2026-04-30,RBTC-MSA,Mombasa,mosque,32,27,3
+DRV-00595,2026-05-01,RBTC-NBO,Nairobi,university_college,105,88,13
+DRV-00596,2026-05-01,RBTC-MSA,Mombasa,secondary_school,124,108,11
+DRV-00597,2026-05-01,RBTC-MSA,Mombasa,mosque,28,26,2
+DRV-00598,2026-05-01,RBTC-MSA,Mombasa,church,41,38,3
+DRV-00599,2026-05-01,RBTC-KSM,Kisumu,fixed_site_walk_in,14,12,1
+DRV-00600,2026-05-01,SAT-MKS,Machakos,market_or_stage,30,24,5
+DRV-00601,2026-05-02,RBTC-MSA,Mombasa,secondary_school,69,57,11
+DRV-00602,2026-05-02,RBTC-KSM,Kisumu,secondary_school,44,39,5
+DRV-00603,2026-05-02,SAT-KAK,Kakamega,fixed_site_walk_in,8,7,1
+DRV-00604,2026-05-02,SAT-MRU,Meru,secondary_school,125,110,13
+DRV-00605,2026-05-03,RBTC-ELD,Uasin Gishu,community_event,23,21,1
+DRV-00606,2026-05-04,RBTC-KSM,Kisumu,university_college,60,53,7
+DRV-00607,2026-05-05,RBTC-NBO,Nairobi,secondary_school,62,56,5
+DRV-00608,2026-05-05,RBTC-MSA,Mombasa,church,35,31,3
+DRV-00609,2026-05-05,RBTC-EMB,Embu,church,25,21,2
+DRV-00610,2026-05-06,RBTC-NBO,Nairobi,university_college,90,72,13
+DRV-00611,2026-05-06,RBTC-ELD,Uasin Gishu,church,30,25,4
+DRV-00612,2026-05-06,SAT-NYR,Nyeri,university_college,134,112,20
+DRV-00613,2026-05-06,SAT-MLD,Kilifi,secondary_school,95,84,9
+DRV-00614,2026-05-07,RBTC-EMB,Embu,secondary_school,81,67,12
+DRV-00615,2026-05-07,SAT-MRU,Meru,secondary_school,91,81,7
+DRV-00616,2026-05-08,RBTC-MSA,Mombasa,university_college,72,65,6
+DRV-00617,2026-05-08,RBTC-MSA,Mombasa,fixed_site_walk_in,11,11,0
+DRV-00618,2026-05-08,RBTC-KSM,Kisumu,university_college,16,16,0
+DRV-00619,2026-05-08,RBTC-NKR,Nakuru,market_or_stage,26,21,5
+DRV-00620,2026-05-08,RBTC-NKR,Nakuru,community_event,42,36,5
+DRV-00621,2026-05-09,RBTC-KSM,Kisumu,university_college,86,71,13
+DRV-00622,2026-05-09,RBTC-ELD,Uasin Gishu,secondary_school,57,51,5
+DRV-00623,2026-05-10,RBTC-NBO,Nairobi,church,39,34,5
+DRV-00624,2026-05-11,RBTC-KSM,Kisumu,secondary_school,77,65,11
+DRV-00625,2026-05-11,RBTC-KSM,Kisumu,church,29,24,3
+DRV-00626,2026-05-11,RBTC-EMB,Embu,secondary_school,66,55,11
+DRV-00627,2026-05-12,RBTC-KSM,Kisumu,community_event,36,34,1
+DRV-00628,2026-05-12,RBTC-KSM,Kisumu,secondary_school,88,79,6
+DRV-00629,2026-05-12,SAT-NYR,Nyeri,market_or_stage,25,23,2
+DRV-00630,2026-05-13,RBTC-NBO,Nairobi,fixed_site_walk_in,7,4,2
+DRV-00631,2026-05-13,SAT-KSI,Kisii,secondary_school,77,70,6
+DRV-00632,2026-05-14,RBTC-NBO,Nairobi,university_college,59,48,11
+DRV-00633,2026-05-14,RBTC-MSA,Mombasa,corporate,51,47,4
+DRV-00634,2026-05-14,RBTC-ELD,Uasin Gishu,secondary_school,69,66,3
+DRV-00635,2026-05-15,RBTC-NBO,Nairobi,university_college,116,105,11
+DRV-00636,2026-05-15,RBTC-KSM,Kisumu,university_college,88,74,10
+DRV-00637,2026-05-15,RBTC-KSM,Kisumu,secondary_school,77,66,9
+DRV-00638,2026-05-15,RBTC-KSM,Kisumu,mosque,39,35,2
+DRV-00639,2026-05-15,RBTC-ELD,Uasin Gishu,secondary_school,96,87,9
+DRV-00640,2026-05-15,SAT-MKS,Machakos,market_or_stage,21,20,1
+DRV-00641,2026-05-16,RBTC-KSM,Kisumu,secondary_school,31,29,1
+DRV-00642,2026-05-16,RBTC-KSM,Kisumu,secondary_school,63,58,5
+DRV-00643,2026-05-16,RBTC-ELD,Uasin Gishu,secondary_school,66,55,9
+DRV-00644,2026-05-16,RBTC-NKR,Nakuru,market_or_stage,26,19,5
+DRV-00645,2026-05-16,SAT-KSI,Kisii,secondary_school,75,64,10
+DRV-00646,2026-05-16,SAT-MKS,Machakos,market_or_stage,18,18,0
+DRV-00647,2026-05-16,SAT-MLD,Kilifi,market_or_stage,19,16,3
+DRV-00648,2026-05-17,RBTC-NBO,Nairobi,church,39,34,3
+DRV-00649,2026-05-17,RBTC-NBO,Nairobi,secondary_school,50,43,5
+DRV-00650,2026-05-17,SAT-KTL,Trans Nzoia,church,33,29,4
+DRV-00651,2026-05-18,RBTC-NBO,Nairobi,corporate,37,30,7
+DRV-00652,2026-05-18,RBTC-MSA,Mombasa,university_college,57,46,9
+DRV-00653,2026-05-18,RBTC-ELD,Uasin Gishu,secondary_school,70,64,3
+DRV-00654,2026-05-18,RBTC-NKR,Nakuru,corporate,38,32,4
+DRV-00655,2026-05-18,RBTC-EMB,Embu,church,51,47,4
+DRV-00656,2026-05-18,SAT-MKS,Machakos,secondary_school,73,65,7
+DRV-00657,2026-05-18,SAT-KTL,Trans Nzoia,university_college,58,52,5
+DRV-00658,2026-05-19,RBTC-EMB,Embu,secondary_school,85,80,4
+DRV-00659,2026-05-19,SAT-MRU,Meru,church,20,16,2
+DRV-00660,2026-05-19,SAT-MRU,Meru,church,31,24,7
+DRV-00661,2026-05-20,SAT-KTL,Trans Nzoia,mosque,41,37,3
+DRV-00662,2026-05-21,RBTC-NBO,Nairobi,secondary_school,40,36,4
+DRV-00663,2026-05-21,RBTC-KSM,Kisumu,university_college,112,102,9
+DRV-00664,2026-05-21,RBTC-NKR,Nakuru,church,39,34,4
+DRV-00665,2026-05-22,RBTC-KSM,Kisumu,secondary_school,105,91,14
+DRV-00666,2026-05-22,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,11,9,2
+DRV-00667,2026-05-22,RBTC-EMB,Embu,corporate,38,36,2
+DRV-00668,2026-05-22,RBTC-EMB,Embu,market_or_stage,38,33,5
+DRV-00669,2026-05-22,SAT-MLD,Kilifi,secondary_school,102,93,7
+DRV-00670,2026-05-24,RBTC-NBO,Nairobi,church,18,16,1
+DRV-00671,2026-05-24,RBTC-NBO,Nairobi,university_college,69,59,7
+DRV-00672,2026-05-25,RBTC-NBO,Nairobi,mosque,51,42,8
+DRV-00673,2026-05-26,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,14,13,1
+DRV-00674,2026-05-26,RBTC-ELD,Uasin Gishu,secondary_school,90,75,12
+DRV-00675,2026-05-26,RBTC-NKR,Nakuru,market_or_stage,6,5,1
+DRV-00676,2026-05-26,SAT-MKS,Machakos,corporate,40,35,4
+DRV-00677,2026-05-27,RBTC-NBO,Nairobi,university_college,68,60,6
+DRV-00678,2026-05-27,RBTC-NBO,Nairobi,fixed_site_walk_in,12,10,2
+DRV-00679,2026-05-27,RBTC-EMB,Embu,church,32,30,2
+DRV-00680,2026-05-29,RBTC-NBO,Nairobi,community_event,63,53,7
+DRV-00681,2026-05-29,RBTC-KSM,Kisumu,church,29,26,3
+DRV-00682,2026-05-29,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,8,6,2
+DRV-00683,2026-05-29,RBTC-NKR,Nakuru,mosque,39,37,2
+DRV-00684,2026-05-29,SAT-MRU,Meru,secondary_school,69,62,5
+DRV-00685,2026-05-30,RBTC-NBO,Nairobi,university_college,74,69,5
+DRV-00686,2026-05-30,RBTC-MSA,Mombasa,secondary_school,50,43,7
+DRV-00687,2026-05-30,RBTC-MSA,Mombasa,market_or_stage,23,21,1
+DRV-00688,2026-05-30,SAT-LDW,Turkana,university_college,93,77,9
+DRV-00689,2026-05-31,RBTC-KSM,Kisumu,church,45,40,4
+DRV-00690,2026-06-01,RBTC-KSM,Kisumu,secondary_school,51,44,6
+DRV-00691,2026-06-03,RBTC-NBO,Nairobi,corporate,43,39,4
+DRV-00692,2026-06-04,RBTC-NBO,Nairobi,corporate,64,61,3
+DRV-00693,2026-06-04,RBTC-NKR,Nakuru,church,35,32,3
+DRV-00694,2026-06-05,RBTC-NBO,Nairobi,secondary_school,56,48,6
+DRV-00695,2026-06-05,RBTC-MSA,Mombasa,market_or_stage,40,35,5
+DRV-00696,2026-06-06,RBTC-NBO,Nairobi,community_event,42,33,7
+DRV-00697,2026-06-06,RBTC-ELD,Uasin Gishu,secondary_school,117,100,12
+DRV-00698,2026-06-07,RBTC-NBO,Nairobi,secondary_school,91,79,10
+DRV-00699,2026-06-07,RBTC-ELD,Uasin Gishu,secondary_school,39,35,4
+DRV-00700,2026-06-08,RBTC-NBO,Nairobi,secondary_school,64,57,6
+DRV-00701,2026-06-08,RBTC-NBO,Nairobi,fixed_site_walk_in,14,12,2
+DRV-00702,2026-06-09,RBTC-NBO,Nairobi,mosque,46,40,6
+DRV-00703,2026-06-10,RBTC-ELD,Uasin Gishu,church,31,24,5
+DRV-00704,2026-06-10,RBTC-NKR,Nakuru,corporate,46,39,5
+DRV-00705,2026-06-10,RBTC-EMB,Embu,university_college,53,46,6
+DRV-00706,2026-06-10,SAT-MLD,Kilifi,secondary_school,92,80,8
+DRV-00707,2026-06-11,RBTC-ELD,Uasin Gishu,secondary_school,77,69,6
+DRV-00708,2026-06-12,SAT-KSI,Kisii,market_or_stage,21,20,1
+DRV-00709,2026-06-12,SAT-MKS,Machakos,secondary_school,111,100,9
+DRV-00710,2026-06-12,SAT-MKS,Machakos,secondary_school,93,83,8
+DRV-00711,2026-06-12,SAT-LDW,Turkana,church,21,19,1
+DRV-00712,2026-06-13,RBTC-EMB,Embu,corporate,29,23,5
+DRV-00713,2026-06-14,RBTC-NBO,Nairobi,church,31,27,4
+DRV-00714,2026-06-14,RBTC-KSM,Kisumu,university_college,50,41,7
+DRV-00715,2026-06-15,RBTC-MSA,Mombasa,mosque,16,15,1
+DRV-00716,2026-06-15,RBTC-KSM,Kisumu,mosque,32,29,3
+DRV-00717,2026-06-15,RBTC-ELD,Uasin Gishu,secondary_school,64,55,7
+DRV-00718,2026-06-16,RBTC-NBO,Nairobi,secondary_school,69,56,12
+DRV-00719,2026-06-16,RBTC-MSA,Mombasa,community_event,28,25,2
+DRV-00720,2026-06-16,RBTC-ELD,Uasin Gishu,secondary_school,97,87,7
+DRV-00721,2026-06-17,RBTC-NBO,Nairobi,university_college,68,60,8
+DRV-00722,2026-06-17,RBTC-MSA,Mombasa,market_or_stage,17,16,1
+DRV-00723,2026-06-17,RBTC-KSM,Kisumu,secondary_school,121,103,15
+DRV-00724,2026-06-18,RBTC-EMB,Embu,church,27,26,1
+DRV-00725,2026-06-19,RBTC-MSA,Mombasa,market_or_stage,19,14,2
+DRV-00726,2026-06-20,RBTC-NBO,Nairobi,fixed_site_walk_in,9,6,2
+DRV-00727,2026-06-20,RBTC-NKR,Nakuru,fixed_site_walk_in,11,10,0
+DRV-00728,2026-06-20,RBTC-NKR,Nakuru,secondary_school,76,70,4
+DRV-00729,2026-06-21,RBTC-NBO,Nairobi,secondary_school,106,95,11
+DRV-00730,2026-06-21,SAT-MKS,Machakos,secondary_school,98,88,9
+DRV-00731,2026-06-22,RBTC-ELD,Uasin Gishu,secondary_school,48,38,9
+DRV-00732,2026-06-22,RBTC-EMB,Embu,market_or_stage,10,10,0
+DRV-00733,2026-06-22,SAT-KSI,Kisii,secondary_school,40,34,6
+DRV-00734,2026-06-22,SAT-KSI,Kisii,corporate,28,24,4
+DRV-00735,2026-06-22,SAT-MRU,Meru,university_college,90,74,16
+DRV-00736,2026-06-23,SAT-KSI,Kisii,community_event,52,49,3
+DRV-00737,2026-06-24,RBTC-NBO,Nairobi,fixed_site_walk_in,15,12,3
+DRV-00738,2026-06-24,RBTC-NBO,Nairobi,university_college,102,88,11
+DRV-00739,2026-06-24,RBTC-NBO,Nairobi,secondary_school,59,50,8
+DRV-00740,2026-06-24,RBTC-ELD,Uasin Gishu,secondary_school,60,50,10
+DRV-00741,2026-06-24,RBTC-NKR,Nakuru,university_college,102,88,11
+DRV-00742,2026-06-24,SAT-GSA,Garissa,secondary_school,53,44,7
+DRV-00743,2026-06-24,SAT-KTL,Trans Nzoia,secondary_school,78,67,10
+DRV-00744,2026-06-24,SAT-KTL,Trans Nzoia,university_college,49,44,5
+DRV-00745,2026-06-25,RBTC-NBO,Nairobi,secondary_school,60,47,11
+DRV-00746,2026-06-26,RBTC-MSA,Mombasa,corporate,44,35,6
+DRV-00747,2026-06-27,SAT-MKS,Machakos,secondary_school,110,96,13
+DRV-00748,2026-06-28,RBTC-NBO,Nairobi,community_event,22,15,7
+DRV-00749,2026-06-28,RBTC-KSM,Kisumu,corporate,48,43,5
+DRV-00750,2026-06-28,SAT-LDW,Turkana,church,13,12,1
+DRV-00751,2026-06-29,RBTC-KSM,Kisumu,secondary_school,38,33,4
+DRV-00752,2026-06-29,RBTC-ELD,Uasin Gishu,secondary_school,74,67,5
+DRV-00753,2026-06-30,SAT-MKS,Machakos,university_college,46,41,3
+DRV-00754,2026-06-30,SAT-KTL,Trans Nzoia,secondary_school,82,71,9
+DRV-00755,2026-06-30,SAT-MLD,Kilifi,secondary_school,45,41,4
+DRV-00756,2026-07-01,RBTC-MSA,Mombasa,secondary_school,97,84,12
+DRV-00757,2026-07-01,RBTC-ELD,Uasin Gishu,secondary_school,78,67,9
+DRV-00758,2026-07-01,SAT-KSI,Kisii,corporate,38,34,4
+DRV-00759,2026-07-02,RBTC-NBO,Nairobi,secondary_school,63,52,9
+DRV-00760,2026-07-02,RBTC-MSA,Mombasa,fixed_site_walk_in,17,12,5
+DRV-00761,2026-07-02,RBTC-KSM,Kisumu,university_college,97,84,13
+DRV-00762,2026-07-02,RBTC-ELD,Uasin Gishu,university_college,88,75,11
+DRV-00763,2026-07-02,RBTC-ELD,Uasin Gishu,secondary_school,76,66,10
+DRV-00764,2026-07-03,RBTC-NBO,Nairobi,fixed_site_walk_in,10,9,1
+DRV-00765,2026-07-04,RBTC-NKR,Nakuru,community_event,32,27,5
+DRV-00766,2026-07-04,SAT-KSI,Kisii,community_event,60,54,5
+DRV-00767,2026-07-05,RBTC-MSA,Mombasa,secondary_school,66,60,3
+DRV-00768,2026-07-05,RBTC-ELD,Uasin Gishu,corporate,32,28,2
+DRV-00769,2026-07-05,RBTC-EMB,Embu,secondary_school,81,69,10
+DRV-00770,2026-07-06,RBTC-NBO,Nairobi,secondary_school,77,69,6
+DRV-00771,2026-07-06,RBTC-KSM,Kisumu,secondary_school,86,75,9
+DRV-00772,2026-07-07,RBTC-NBO,Nairobi,community_event,40,36,4
+DRV-00773,2026-07-07,RBTC-NKR,Nakuru,university_college,71,64,6
+DRV-00774,2026-07-07,SAT-GSA,Garissa,secondary_school,58,46,8
+DRV-00775,2026-07-08,RBTC-NBO,Nairobi,church,41,35,3
+DRV-00776,2026-07-08,RBTC-NKR,Nakuru,church,35,28,7
+DRV-00777,2026-07-09,RBTC-KSM,Kisumu,mosque,51,45,4
+DRV-00778,2026-07-09,SAT-KTL,Trans Nzoia,church,45,40,4
+DRV-00779,2026-07-10,RBTC-KSM,Kisumu,mosque,19,17,1
+DRV-00780,2026-07-10,RBTC-EMB,Embu,university_college,71,64,4
+DRV-00781,2026-07-13,RBTC-KSM,Kisumu,secondary_school,55,47,8
+DRV-00782,2026-07-14,RBTC-NBO,Nairobi,secondary_school,70,63,7
+DRV-00783,2026-07-14,RBTC-NBO,Nairobi,church,37,30,6
+DRV-00784,2026-07-14,RBTC-KSM,Kisumu,market_or_stage,27,23,3
+DRV-00785,2026-07-14,RBTC-KSM,Kisumu,community_event,36,31,4
+DRV-00786,2026-07-14,RBTC-ELD,Uasin Gishu,community_event,58,52,5
+DRV-00787,2026-07-14,SAT-NYR,Nyeri,market_or_stage,19,17,2
+DRV-00788,2026-07-14,SAT-MLD,Kilifi,secondary_school,44,39,5
+DRV-00789,2026-07-15,RBTC-NBO,Nairobi,fixed_site_walk_in,9,8,1
+DRV-00790,2026-07-15,RBTC-KSM,Kisumu,community_event,25,19,6
+DRV-00791,2026-07-15,RBTC-KSM,Kisumu,fixed_site_walk_in,9,9,0
+DRV-00792,2026-07-15,RBTC-ELD,Uasin Gishu,secondary_school,39,32,6
+DRV-00793,2026-07-16,RBTC-NBO,Nairobi,market_or_stage,32,24,8
+DRV-00794,2026-07-16,RBTC-NBO,Nairobi,market_or_stage,23,19,4
+DRV-00795,2026-07-16,RBTC-NBO,Nairobi,secondary_school,86,79,7
+DRV-00796,2026-07-16,RBTC-NKR,Nakuru,church,42,39,1
+DRV-00797,2026-07-17,RBTC-MSA,Mombasa,fixed_site_walk_in,12,10,1
+DRV-00798,2026-07-17,SAT-NYR,Nyeri,church,25,22,2
+DRV-00799,2026-07-18,RBTC-NBO,Nairobi,secondary_school,77,66,9
+DRV-00800,2026-07-18,RBTC-ELD,Uasin Gishu,university_college,101,88,11
+DRV-00801,2026-07-18,RBTC-NKR,Nakuru,church,62,52,10
+DRV-00802,2026-07-18,RBTC-EMB,Embu,university_college,70,59,11
+DRV-00803,2026-07-18,SAT-LDW,Turkana,secondary_school,50,43,7
+DRV-00804,2026-07-18,SAT-MLD,Kilifi,secondary_school,39,34,4
+DRV-00805,2026-07-19,RBTC-MSA,Mombasa,church,39,35,2
+DRV-00806,2026-07-19,RBTC-NKR,Nakuru,church,27,25,1
+DRV-00807,2026-07-20,RBTC-KSM,Kisumu,university_college,77,66,10
+DRV-00808,2026-07-20,RBTC-EMB,Embu,university_college,109,92,15
+DRV-00809,2026-07-21,RBTC-NBO,Nairobi,secondary_school,68,58,4
+DRV-00810,2026-07-22,RBTC-EMB,Embu,secondary_school,106,92,10
+DRV-00811,2026-07-22,SAT-MLD,Kilifi,corporate,37,32,4
+DRV-00812,2026-07-23,RBTC-KSM,Kisumu,secondary_school,51,48,3
+DRV-00813,2026-07-24,RBTC-NBO,Nairobi,secondary_school,16,15,1
+DRV-00814,2026-07-24,RBTC-NBO,Nairobi,corporate,41,38,3
+DRV-00815,2026-07-24,RBTC-KSM,Kisumu,mosque,34,28,4
+DRV-00816,2026-07-25,RBTC-NKR,Nakuru,secondary_school,57,52,4
+DRV-00817,2026-07-25,SAT-LDW,Turkana,secondary_school,73,58,13
+DRV-00818,2026-07-25,SAT-MLD,Kilifi,market_or_stage,16,13,3
+DRV-00819,2026-07-27,RBTC-MSA,Mombasa,secondary_school,60,51,6
+DRV-00820,2026-07-28,RBTC-NBO,Nairobi,secondary_school,103,86,13
+DRV-00821,2026-07-28,RBTC-NKR,Nakuru,secondary_school,60,52,8
+DRV-00822,2026-07-28,SAT-NYR,Nyeri,secondary_school,80,75,5
+DRV-00823,2026-07-28,SAT-KSI,Kisii,church,35,32,3
+DRV-00824,2026-07-28,SAT-KSI,Kisii,secondary_school,51,43,6
+DRV-00825,2026-07-28,SAT-KTL,Trans Nzoia,secondary_school,90,68,18
+DRV-00826,2026-07-29,RBTC-MSA,Mombasa,fixed_site_walk_in,17,16,1
+DRV-00827,2026-07-29,RBTC-MSA,Mombasa,secondary_school,94,84,10
+DRV-00828,2026-07-29,RBTC-KSM,Kisumu,secondary_school,88,81,6
+DRV-00829,2026-07-29,RBTC-NKR,Nakuru,fixed_site_walk_in,8,7,1
+DRV-00830,2026-07-30,RBTC-NBO,Nairobi,church,41,33,7
+DRV-00831,2026-07-30,RBTC-KSM,Kisumu,secondary_school,55,50,3
+DRV-00832,2026-07-30,SAT-GSA,Garissa,university_college,33,30,3
+DRV-00833,2026-07-30,SAT-MLD,Kilifi,community_event,55,48,6
+DRV-00834,2026-07-30,SAT-MLD,Kilifi,market_or_stage,34,29,4
+DRV-00835,2026-08-01,RBTC-NBO,Nairobi,church,26,21,4
+DRV-00836,2026-08-01,SAT-LDW,Turkana,market_or_stage,19,15,4
+DRV-00837,2026-08-02,RBTC-NBO,Nairobi,church,26,22,2
+DRV-00838,2026-08-02,RBTC-NBO,Nairobi,church,39,33,6
+DRV-00839,2026-08-02,RBTC-EMB,Embu,mosque,33,30,3
+DRV-00840,2026-08-03,SAT-NYR,Nyeri,church,20,13,6
+DRV-00841,2026-08-04,RBTC-NBO,Nairobi,corporate,24,19,4
+DRV-00842,2026-08-04,RBTC-MSA,Mombasa,community_event,28,20,6
+DRV-00843,2026-08-04,RBTC-KSM,Kisumu,church,22,20,2
+DRV-00844,2026-08-04,RBTC-ELD,Uasin Gishu,market_or_stage,11,10,0
+DRV-00845,2026-08-04,RBTC-EMB,Embu,university_college,85,74,10
+DRV-00846,2026-08-04,SAT-NYR,Nyeri,church,27,26,0
+DRV-00847,2026-08-05,RBTC-NBO,Nairobi,mosque,19,17,2
+DRV-00848,2026-08-05,RBTC-ELD,Uasin Gishu,church,19,18,0
+DRV-00849,2026-08-05,RBTC-ELD,Uasin Gishu,university_college,83,71,11
+DRV-00850,2026-08-05,RBTC-NKR,Nakuru,church,47,43,4
+DRV-00851,2026-08-05,SAT-KSI,Kisii,university_college,109,101,6
+DRV-00852,2026-08-06,RBTC-EMB,Embu,market_or_stage,40,36,3
+DRV-00853,2026-08-06,SAT-NYR,Nyeri,corporate,44,38,6
+DRV-00854,2026-08-06,SAT-MKS,Machakos,mosque,20,18,2
+DRV-00855,2026-08-07,RBTC-NBO,Nairobi,community_event,26,19,6
+DRV-00856,2026-08-07,RBTC-NKR,Nakuru,mosque,28,24,3
+DRV-00857,2026-08-07,SAT-KAK,Kakamega,church,31,31,0
+DRV-00858,2026-08-08,RBTC-NBO,Nairobi,church,44,36,8
+DRV-00859,2026-08-08,RBTC-KSM,Kisumu,university_college,86,77,9
+DRV-00860,2026-08-08,SAT-KSI,Kisii,community_event,54,42,11
+DRV-00861,2026-08-09,RBTC-MSA,Mombasa,community_event,62,55,6
+DRV-00862,2026-08-09,RBTC-NKR,Nakuru,university_college,106,96,10
+DRV-00863,2026-08-09,RBTC-NKR,Nakuru,church,23,20,3
+DRV-00864,2026-08-09,SAT-MRU,Meru,corporate,30,23,5
+DRV-00865,2026-08-10,SAT-KSI,Kisii,market_or_stage,30,27,3
+DRV-00866,2026-08-11,SAT-LDW,Turkana,market_or_stage,25,21,3
+DRV-00867,2026-08-12,RBTC-NBO,Nairobi,market_or_stage,22,20,0
+DRV-00868,2026-08-12,SAT-MRU,Meru,church,46,42,4
+DRV-00869,2026-08-13,RBTC-NBO,Nairobi,corporate,51,48,2
+DRV-00870,2026-08-13,RBTC-NBO,Nairobi,mosque,38,36,2
+DRV-00871,2026-08-13,RBTC-KSM,Kisumu,church,11,10,1
+DRV-00872,2026-08-14,RBTC-NBO,Nairobi,mosque,13,10,2
+DRV-00873,2026-08-14,RBTC-NBO,Nairobi,corporate,63,55,8
+DRV-00874,2026-08-14,RBTC-KSM,Kisumu,corporate,59,51,7
+DRV-00875,2026-08-15,SAT-MRU,Meru,mosque,45,37,7
+DRV-00876,2026-08-17,SAT-NYR,Nyeri,university_college,82,73,6
+DRV-00877,2026-08-18,RBTC-NBO,Nairobi,church,23,20,3
+DRV-00878,2026-08-18,RBTC-NKR,Nakuru,university_college,52,43,9
+DRV-00879,2026-08-18,SAT-NYR,Nyeri,university_college,94,78,13
+DRV-00880,2026-08-18,SAT-MKS,Machakos,fixed_site_walk_in,13,13,0
+DRV-00881,2026-08-19,RBTC-NBO,Nairobi,church,40,31,7
+DRV-00882,2026-08-19,RBTC-ELD,Uasin Gishu,church,41,36,4
+DRV-00883,2026-08-20,RBTC-NBO,Nairobi,university_college,111,98,12
+DRV-00884,2026-08-20,RBTC-NKR,Nakuru,community_event,51,42,8
+DRV-00885,2026-08-21,RBTC-NBO,Nairobi,fixed_site_walk_in,14,12,2
+DRV-00886,2026-08-21,RBTC-NBO,Nairobi,church,46,38,5
+DRV-00887,2026-08-21,RBTC-NBO,Nairobi,community_event,22,19,2
+DRV-00888,2026-08-21,RBTC-NBO,Nairobi,fixed_site_walk_in,14,12,2
+DRV-00889,2026-08-21,RBTC-KSM,Kisumu,church,21,20,1
+DRV-00890,2026-08-21,RBTC-ELD,Uasin Gishu,church,32,28,3
+DRV-00891,2026-08-22,RBTC-MSA,Mombasa,church,10,6,4
+DRV-00892,2026-08-22,RBTC-KSM,Kisumu,market_or_stage,29,24,4
+DRV-00893,2026-08-23,RBTC-NBO,Nairobi,mosque,15,12,3
+DRV-00894,2026-08-23,RBTC-ELD,Uasin Gishu,church,35,30,5
+DRV-00895,2026-08-23,SAT-KAK,Kakamega,university_college,101,86,13
+DRV-00896,2026-08-25,RBTC-KSM,Kisumu,corporate,45,36,7
+DRV-00897,2026-08-25,RBTC-ELD,Uasin Gishu,corporate,49,42,6
+DRV-00898,2026-08-25,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,16,14,2
+DRV-00899,2026-08-25,RBTC-NKR,Nakuru,community_event,38,34,4
+DRV-00900,2026-08-25,RBTC-EMB,Embu,corporate,48,41,6
+DRV-00901,2026-08-26,RBTC-NBO,Nairobi,church,48,44,4
+DRV-00902,2026-08-26,RBTC-NBO,Nairobi,secondary_school,65,52,12
+DRV-00903,2026-08-26,RBTC-ELD,Uasin Gishu,market_or_stage,21,19,2
+DRV-00904,2026-08-26,RBTC-ELD,Uasin Gishu,community_event,55,46,7
+DRV-00905,2026-08-26,RBTC-NKR,Nakuru,corporate,45,40,4
+DRV-00906,2026-08-27,RBTC-KSM,Kisumu,market_or_stage,34,31,3
+DRV-00907,2026-08-27,RBTC-KSM,Kisumu,church,44,39,4
+DRV-00908,2026-08-27,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,18,15,2
+DRV-00909,2026-08-27,RBTC-ELD,Uasin Gishu,community_event,48,43,2
+DRV-00910,2026-08-27,SAT-MLD,Kilifi,corporate,48,38,4
+DRV-00911,2026-08-28,RBTC-KSM,Kisumu,market_or_stage,29,23,6
+DRV-00912,2026-08-28,RBTC-EMB,Embu,mosque,41,39,1
+DRV-00913,2026-08-28,RBTC-EMB,Embu,church,42,34,6
+DRV-00914,2026-08-29,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,14,10,4
+DRV-00915,2026-08-29,RBTC-EMB,Embu,mosque,29,25,4
+DRV-00916,2026-08-29,SAT-MLD,Kilifi,fixed_site_walk_in,10,9,1
+DRV-00917,2026-08-30,RBTC-EMB,Embu,church,25,22,3
+DRV-00918,2026-08-31,RBTC-MSA,Mombasa,secondary_school,67,60,6
+DRV-00919,2026-08-31,RBTC-KSM,Kisumu,corporate,48,47,1
+DRV-00920,2026-08-31,RBTC-ELD,Uasin Gishu,market_or_stage,25,21,4
+DRV-00921,2026-09-01,RBTC-NBO,Nairobi,secondary_school,51,46,4
+DRV-00922,2026-09-01,SAT-MRU,Meru,market_or_stage,7,7,0
+DRV-00923,2026-09-01,SAT-MLD,Kilifi,market_or_stage,35,30,4
+DRV-00924,2026-09-02,RBTC-KSM,Kisumu,university_college,82,73,8
+DRV-00925,2026-09-02,SAT-KTL,Trans Nzoia,market_or_stage,15,11,4
+DRV-00926,2026-09-03,SAT-KAK,Kakamega,church,27,24,3
+DRV-00927,2026-09-03,SAT-KAK,Kakamega,mosque,29,25,4
+DRV-00928,2026-09-03,SAT-KTL,Trans Nzoia,secondary_school,62,51,11
+DRV-00929,2026-09-04,RBTC-NBO,Nairobi,secondary_school,40,28,10
+DRV-00930,2026-09-04,RBTC-MSA,Mombasa,university_college,81,64,15
+DRV-00931,2026-09-04,RBTC-MSA,Mombasa,secondary_school,73,61,8
+DRV-00932,2026-09-04,RBTC-KSM,Kisumu,church,28,21,6
+DRV-00933,2026-09-04,SAT-KAK,Kakamega,university_college,102,93,6
+DRV-00934,2026-09-04,SAT-MKS,Machakos,mosque,29,26,2
+DRV-00935,2026-09-04,SAT-MRU,Meru,church,37,32,4
+DRV-00936,2026-09-05,RBTC-NBO,Nairobi,corporate,39,37,1
+DRV-00937,2026-09-05,SAT-KSI,Kisii,university_college,85,74,6
+DRV-00938,2026-09-06,SAT-MKS,Machakos,corporate,40,38,2
+DRV-00939,2026-09-06,SAT-MLD,Kilifi,church,22,20,2
+DRV-00940,2026-09-07,RBTC-MSA,Mombasa,university_college,47,45,0
+DRV-00941,2026-09-07,RBTC-MSA,Mombasa,community_event,19,15,4
+DRV-00942,2026-09-07,RBTC-NKR,Nakuru,church,42,36,4
+DRV-00943,2026-09-07,RBTC-NKR,Nakuru,secondary_school,77,65,8
+DRV-00944,2026-09-08,RBTC-NBO,Nairobi,secondary_school,52,44,7
+DRV-00945,2026-09-08,SAT-MKS,Machakos,church,34,25,8
+DRV-00946,2026-09-08,SAT-LDW,Turkana,secondary_school,64,63,1
+DRV-00947,2026-09-09,RBTC-ELD,Uasin Gishu,corporate,40,33,6
+DRV-00948,2026-09-11,RBTC-NBO,Nairobi,secondary_school,80,71,8
+DRV-00949,2026-09-11,RBTC-MSA,Mombasa,secondary_school,47,41,3
+DRV-00950,2026-09-11,RBTC-MSA,Mombasa,corporate,21,18,3
+DRV-00951,2026-09-12,RBTC-NBO,Nairobi,secondary_school,69,60,8
+DRV-00952,2026-09-12,RBTC-MSA,Mombasa,university_college,54,42,10
+DRV-00953,2026-09-13,RBTC-MSA,Mombasa,secondary_school,42,37,5
+DRV-00954,2026-09-13,RBTC-NKR,Nakuru,university_college,62,53,7
+DRV-00955,2026-09-14,RBTC-NBO,Nairobi,secondary_school,50,46,4
+DRV-00956,2026-09-14,RBTC-NBO,Nairobi,church,42,35,6
+DRV-00957,2026-09-14,RBTC-ELD,Uasin Gishu,secondary_school,48,42,3
+DRV-00958,2026-09-14,SAT-MRU,Meru,university_college,108,97,9
+DRV-00959,2026-09-15,RBTC-NBO,Nairobi,community_event,39,34,4
+DRV-00960,2026-09-15,RBTC-ELD,Uasin Gishu,community_event,48,41,6
+DRV-00961,2026-09-15,RBTC-ELD,Uasin Gishu,secondary_school,85,73,9
+DRV-00962,2026-09-16,RBTC-NBO,Nairobi,community_event,68,56,12
+DRV-00963,2026-09-18,RBTC-KSM,Kisumu,market_or_stage,18,16,2
+DRV-00964,2026-09-18,SAT-MKS,Machakos,community_event,58,49,7
+DRV-00965,2026-09-18,SAT-MKS,Machakos,community_event,54,49,5
+DRV-00966,2026-09-18,SAT-MRU,Meru,fixed_site_walk_in,12,9,3
+DRV-00967,2026-09-19,RBTC-NBO,Nairobi,corporate,30,21,6
+DRV-00968,2026-09-19,RBTC-KSM,Kisumu,secondary_school,73,62,10
+DRV-00969,2026-09-19,RBTC-KSM,Kisumu,church,41,36,5
+DRV-00970,2026-09-19,SAT-NYR,Nyeri,corporate,50,46,3
+DRV-00971,2026-09-19,SAT-KAK,Kakamega,secondary_school,47,38,7
+DRV-00972,2026-09-20,SAT-NYR,Nyeri,university_college,78,64,9
+DRV-00973,2026-09-21,RBTC-KSM,Kisumu,market_or_stage,21,21,0
+DRV-00974,2026-09-21,RBTC-EMB,Embu,secondary_school,98,83,14
+DRV-00975,2026-09-24,RBTC-NBO,Nairobi,church,34,28,4
+DRV-00976,2026-09-24,SAT-KTL,Trans Nzoia,university_college,42,38,2
+DRV-00977,2026-09-25,SAT-KTL,Trans Nzoia,corporate,49,45,3
+DRV-00978,2026-09-26,RBTC-MSA,Mombasa,mosque,33,27,6
+DRV-00979,2026-09-26,RBTC-MSA,Mombasa,secondary_school,42,36,4
+DRV-00980,2026-09-26,SAT-KAK,Kakamega,university_college,59,53,6
+DRV-00981,2026-09-26,SAT-GSA,Garissa,community_event,49,45,4
+DRV-00982,2026-09-26,SAT-KTL,Trans Nzoia,secondary_school,60,51,7
+DRV-00983,2026-09-28,SAT-GSA,Garissa,church,35,26,6
+DRV-00984,2026-09-29,RBTC-NKR,Nakuru,market_or_stage,25,23,1
+DRV-00985,2026-09-29,SAT-KTL,Trans Nzoia,fixed_site_walk_in,12,10,2
+DRV-00986,2026-09-30,RBTC-KSM,Kisumu,church,36,34,1
+DRV-00987,2026-09-30,RBTC-ELD,Uasin Gishu,market_or_stage,22,19,2
+DRV-00988,2026-09-30,SAT-KTL,Trans Nzoia,secondary_school,66,58,6
+DRV-00989,2026-10-01,RBTC-NBO,Nairobi,fixed_site_walk_in,15,13,1
+DRV-00990,2026-10-01,SAT-MKS,Machakos,market_or_stage,24,24,0
+DRV-00991,2026-10-01,SAT-MRU,Meru,secondary_school,53,40,11
+DRV-00992,2026-10-01,SAT-KTL,Trans Nzoia,corporate,40,35,4
+DRV-00993,2026-10-02,RBTC-NBO,Nairobi,mosque,15,14,1
+DRV-00994,2026-10-02,RBTC-NBO,Nairobi,secondary_school,45,41,2
+DRV-00995,2026-10-03,RBTC-MSA,Mombasa,university_college,62,51,8
+DRV-00996,2026-10-03,RBTC-KSM,Kisumu,community_event,41,37,4
+DRV-00997,2026-10-03,RBTC-ELD,Uasin Gishu,secondary_school,70,56,14
+DRV-00998,2026-10-03,SAT-MKS,Machakos,secondary_school,48,40,4
+DRV-00999,2026-10-04,RBTC-NBO,Nairobi,secondary_school,49,44,4
+DRV-01000,2026-10-04,RBTC-MSA,Mombasa,secondary_school,101,92,9
+DRV-01001,2026-10-04,RBTC-ELD,Uasin Gishu,community_event,40,38,2
+DRV-01002,2026-10-05,RBTC-NKR,Nakuru,university_college,75,69,4
+DRV-01003,2026-10-05,SAT-NYR,Nyeri,corporate,42,38,3
+DRV-01004,2026-10-05,SAT-KTL,Trans Nzoia,mosque,26,18,8
+DRV-01005,2026-10-06,SAT-MKS,Machakos,secondary_school,55,50,5
+DRV-01006,2026-10-07,RBTC-MSA,Mombasa,university_college,133,110,18
+DRV-01007,2026-10-07,RBTC-ELD,Uasin Gishu,secondary_school,58,50,6
+DRV-01008,2026-10-07,SAT-KAK,Kakamega,market_or_stage,33,26,4
+DRV-01009,2026-10-08,RBTC-NBO,Nairobi,fixed_site_walk_in,15,11,3
+DRV-01010,2026-10-09,RBTC-MSA,Mombasa,mosque,24,22,2
+DRV-01011,2026-10-09,RBTC-MSA,Mombasa,secondary_school,61,55,5
+DRV-01012,2026-10-09,RBTC-KSM,Kisumu,corporate,30,26,4
+DRV-01013,2026-10-10,RBTC-MSA,Mombasa,secondary_school,98,83,12
+DRV-01014,2026-10-10,SAT-NYR,Nyeri,secondary_school,68,57,10
+DRV-01015,2026-10-11,RBTC-NBO,Nairobi,mosque,35,30,4
+DRV-01016,2026-10-11,RBTC-NBO,Nairobi,church,50,47,2
+DRV-01017,2026-10-11,RBTC-EMB,Embu,corporate,33,28,5
+DRV-01018,2026-10-11,SAT-MLD,Kilifi,fixed_site_walk_in,16,15,1
+DRV-01019,2026-10-12,RBTC-KSM,Kisumu,secondary_school,80,68,8
+DRV-01020,2026-10-12,SAT-NYR,Nyeri,secondary_school,90,75,13
+DRV-01021,2026-10-12,SAT-KSI,Kisii,church,41,36,3
+DRV-01022,2026-10-12,SAT-GSA,Garissa,secondary_school,98,84,12
+DRV-01023,2026-10-12,SAT-MLD,Kilifi,fixed_site_walk_in,13,13,0
+DRV-01024,2026-10-13,RBTC-MSA,Mombasa,secondary_school,89,79,7
+DRV-01025,2026-10-14,RBTC-NBO,Nairobi,secondary_school,42,36,4
+DRV-01026,2026-10-14,SAT-MKS,Machakos,church,35,33,2
+DRV-01027,2026-10-16,RBTC-KSM,Kisumu,church,35,32,3
+DRV-01028,2026-10-16,SAT-KSI,Kisii,secondary_school,65,55,8
+DRV-01029,2026-10-18,RBTC-MSA,Mombasa,church,51,41,9
+DRV-01030,2026-10-20,RBTC-MSA,Mombasa,corporate,48,44,4
+DRV-01031,2026-10-20,RBTC-EMB,Embu,fixed_site_walk_in,12,12,0
+DRV-01032,2026-10-22,RBTC-NBO,Nairobi,secondary_school,83,71,11
+DRV-01033,2026-10-22,RBTC-NBO,Nairobi,secondary_school,99,86,10
+DRV-01034,2026-10-22,RBTC-ELD,Uasin Gishu,secondary_school,36,33,2
+DRV-01035,2026-10-22,RBTC-NKR,Nakuru,secondary_school,82,72,9
+DRV-01036,2026-10-22,RBTC-NKR,Nakuru,university_college,89,77,12
+DRV-01037,2026-10-23,RBTC-NBO,Nairobi,community_event,33,29,4
+DRV-01038,2026-10-23,RBTC-ELD,Uasin Gishu,fixed_site_walk_in,5,5,0
+DRV-01039,2026-10-24,RBTC-KSM,Kisumu,secondary_school,92,79,10
+DRV-01040,2026-10-25,RBTC-NBO,Nairobi,university_college,76,67,7
+DRV-01041,2026-10-25,RBTC-NBO,Nairobi,university_college,72,63,8
+DRV-01042,2026-10-25,RBTC-ELD,Uasin Gishu,church,43,38,5
+DRV-01043,2026-10-25,RBTC-NKR,Nakuru,university_college,40,38,2
+DRV-01044,2026-10-26,RBTC-NBO,Nairobi,church,30,27,2
+DRV-01045,2026-10-26,RBTC-KSM,Kisumu,church,41,39,2
+DRV-01046,2026-10-26,RBTC-NKR,Nakuru,secondary_school,67,58,9
+DRV-01047,2026-10-27,RBTC-MSA,Mombasa,university_college,54,49,4
+DRV-01048,2026-10-27,RBTC-ELD,Uasin Gishu,university_college,92,81,8
+DRV-01049,2026-10-27,SAT-LDW,Turkana,secondary_school,62,54,7
+DRV-01050,2026-10-28,RBTC-NKR,Nakuru,mosque,22,19,3
+DRV-01051,2026-10-28,SAT-KSI,Kisii,secondary_school,78,63,11
+DRV-01052,2026-10-28,SAT-KTL,Trans Nzoia,market_or_stage,33,27,6
+DRV-01053,2026-10-30,RBTC-NBO,Nairobi,market_or_stage,14,13,1
+DRV-01054,2026-10-30,RBTC-MSA,Mombasa,market_or_stage,15,14,1
+DRV-01055,2026-10-31,RBTC-MSA,Mombasa,corporate,48,41,4
+DRV-01056,2026-10-31,RBTC-NKR,Nakuru,church,28,27,1
+DRV-01057,2026-10-31,SAT-MKS,Machakos,market_or_stage,28,25,3
+DRV-01058,2026-10-31,SAT-MKS,Machakos,market_or_stage,27,27,0
+DRV-01059,2026-10-31,SAT-MRU,Meru,fixed_site_walk_in,5,3,2
+DRV-01060,2026-01-19,RBTC-NBO,Nairobi,emergency_appeal,61,47,13
+DRV-01061,2026-01-19,RBTC-MSA,Mombasa,emergency_appeal,43,36,5
+DRV-01062,2026-01-19,RBTC-KSM,Kisumu,emergency_appeal,85,72,12
+DRV-01063,2026-01-19,RBTC-ELD,Uasin Gishu,emergency_appeal,59,48,8
+DRV-01064,2026-01-20,RBTC-NBO,Nairobi,emergency_appeal,64,57,5
+DRV-01065,2026-01-20,RBTC-MSA,Mombasa,emergency_appeal,91,77,13
+DRV-01066,2026-01-20,RBTC-KSM,Kisumu,emergency_appeal,36,30,5
+DRV-01067,2026-01-20,RBTC-ELD,Uasin Gishu,emergency_appeal,50,40,9
+DRV-01068,2026-01-21,RBTC-NBO,Nairobi,emergency_appeal,72,60,8
+DRV-01069,2026-01-21,RBTC-MSA,Mombasa,emergency_appeal,62,51,8
+DRV-01070,2026-01-21,RBTC-KSM,Kisumu,emergency_appeal,56,45,8
+DRV-01071,2026-01-21,RBTC-ELD,Uasin Gishu,emergency_appeal,73,59,10
+DRV-01072,2026-01-22,RBTC-NBO,Nairobi,emergency_appeal,44,38,6
+DRV-01073,2026-01-22,RBTC-MSA,Mombasa,emergency_appeal,55,50,4
+DRV-01074,2026-01-22,RBTC-KSM,Kisumu,emergency_appeal,59,51,7
+DRV-01075,2026-01-22,RBTC-ELD,Uasin Gishu,emergency_appeal,42,34,5
+DRV-01076,2026-01-23,RBTC-NBO,Nairobi,emergency_appeal,63,58,4
+DRV-01077,2026-01-23,RBTC-MSA,Mombasa,emergency_appeal,60,52,7
+DRV-01078,2026-01-23,RBTC-KSM,Kisumu,emergency_appeal,26,19,7
+DRV-01079,2026-01-23,RBTC-ELD,Uasin Gishu,emergency_appeal,69,60,7
+DRV-01080,2026-01-24,RBTC-NBO,Nairobi,emergency_appeal,40,34,4
+DRV-01081,2026-01-24,RBTC-MSA,Mombasa,emergency_appeal,63,52,9
+DRV-01082,2026-01-24,RBTC-KSM,Kisumu,emergency_appeal,59,50,8
+DRV-01083,2026-01-24,RBTC-ELD,Uasin Gishu,emergency_appeal,44,37,6
+DRV-01084,2026-08-24,RBTC-NBO,Nairobi,emergency_appeal,50,36,13
+DRV-01085,2026-08-24,RBTC-MSA,Mombasa,emergency_appeal,38,26,12
+DRV-01086,2026-08-24,RBTC-KSM,Kisumu,emergency_appeal,66,60,4
+DRV-01087,2026-08-24,RBTC-ELD,Uasin Gishu,emergency_appeal,72,62,8
+DRV-01088,2026-08-25,RBTC-NBO,Nairobi,emergency_appeal,70,62,8
+DRV-01089,2026-08-25,RBTC-MSA,Mombasa,emergency_appeal,52,41,8
+DRV-01090,2026-08-25,RBTC-KSM,Kisumu,emergency_appeal,35,30,5
+DRV-01091,2026-08-25,RBTC-ELD,Uasin Gishu,emergency_appeal,52,46,5
+DRV-01092,2026-08-26,RBTC-NBO,Nairobi,emergency_appeal,44,39,5
+DRV-01093,2026-08-26,RBTC-MSA,Mombasa,emergency_appeal,74,67,5
+DRV-01094,2026-08-26,RBTC-KSM,Kisumu,emergency_appeal,53,46,5
+DRV-01095,2026-08-26,RBTC-ELD,Uasin Gishu,emergency_appeal,36,31,3
+DRV-01096,2026-08-27,RBTC-NBO,Nairobi,emergency_appeal,65,55,10
+DRV-01097,2026-08-27,RBTC-MSA,Mombasa,emergency_appeal,40,37,2
+DRV-01098,2026-08-27,RBTC-KSM,Kisumu,emergency_appeal,54,46,7
+DRV-01099,2026-08-27,RBTC-ELD,Uasin Gishu,emergency_appeal,79,62,15
+DRV-01100,2026-08-28,RBTC-NBO,Nairobi,emergency_appeal,81,67,10
+DRV-01101,2026-08-28,RBTC-MSA,Mombasa,emergency_appeal,57,44,10
+DRV-01102,2026-08-28,RBTC-KSM,Kisumu,emergency_appeal,41,36,4
+DRV-01103,2026-08-28,RBTC-ELD,Uasin Gishu,emergency_appeal,53,44,8
+DRV-01104,2026-08-29,RBTC-NBO,Nairobi,emergency_appeal,61,52,8
+DRV-01105,2026-08-29,RBTC-MSA,Mombasa,emergency_appeal,70,57,12
+DRV-01106,2026-08-29,RBTC-KSM,Kisumu,emergency_appeal,46,37,8
+DRV-01107,2026-08-29,RBTC-ELD,Uasin Gishu,emergency_appeal,77,67,9

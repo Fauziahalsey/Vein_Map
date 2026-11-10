@@ -1,0 +1,313 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Hackathon Starter Dataset</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a dark brand band like the event artwork, then a single reading column with full-width data tables. Single dark look by choice. */
+:root{
+  --ink:#230102;        /* brand oxblood, page ground (matches logo plate) */
+  --ink-2:#2A0507;      /* raised surfaces */
+  --line:#4A1C1F;       /* hairlines */
+  --red:#E4000F;        /* Terumo red */
+  --blush:#F2B8BC;      /* eyebrow pink */
+  --paper:#FFF6F6;      /* main text */
+  --muted:#C9B1B3;      /* secondary text */
+  --ok:#7BD389;
+  --display:"Archivo",Arial,Helvetica,sans-serif;
+  --body:"Archivo",Arial,Helvetica,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+body{background:var(--ink);color:var(--paper);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+a{color:var(--blush)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--blush);outline-offset:3px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--blush)}
+
+/* hero */
+.hero{border-bottom:6px solid var(--red);background:
+  radial-gradient(900px 420px at 92% 10%,rgba(228,0,15,.32),transparent 60%),var(--ink)}
+.hero .wrap{padding-block:36px 44px;display:grid;gap:28px}
+.brand{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.brand img{width:190px;height:auto;mix-blend-mode:lighten}
+.brand .rule{width:3px;height:60px;background:var(--red)}
+h1{font-size:clamp(38px,6.4vw,72px);line-height:.98;font-weight:900;text-transform:uppercase;letter-spacing:-.01em}
+h1 .tag{display:inline-block;background:var(--red);padding:2px 12px 4px;margin-left:-12px;margin-top:6px}
+.lead{max-width:62ch;font-size:19px;color:var(--paper)}
+.notice{display:flex;gap:12px;align-items:flex-start;max-width:70ch;padding:14px 16px;border:1px solid var(--line);border-left:4px solid var(--blush);background:var(--ink-2);font-size:15px}
+.notice b{color:var(--blush)}
+
+/* downloads */
+.dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.dlbtn{all:unset;box-sizing:border-box;cursor:pointer;display:grid;gap:4px;padding:16px 18px;border:1px solid var(--line);background:var(--ink-2);border-radius:4px;transition:border-color .15s,transform .15s}
+.dlbtn:hover{border-color:var(--blush)}
+.dlbtn.primary{background:var(--red);border-color:var(--red)}
+.dlbtn .t{font-weight:800;font-size:17px}
+.dlbtn .s{font-size:13px;color:var(--muted)}
+.dlbtn.primary .s{color:#FFE1E3}
+.dlbtn[disabled]{opacity:.55;cursor:default}
+.mini{all:unset;cursor:pointer;font-family:var(--mono);font-size:12.5px;padding:4px 10px;border:1px solid var(--line);border-radius:3px;color:var(--blush);white-space:nowrap}
+.mini:hover{border-color:var(--blush)}
+.mini:focus-visible{outline:3px solid var(--blush);outline-offset:2px}
+.status{min-height:22px;font-size:14px;color:var(--muted)}
+.status.ok{color:var(--ok)}
+
+section{padding-block:44px;border-bottom:1px solid var(--line)}
+section h2{font-size:clamp(24px,3.2vw,32px);font-weight:800;text-transform:uppercase;letter-spacing:.01em;margin-top:6px;margin-bottom:18px}
+section p{max-width:68ch;color:var(--muted);margin:0 0 14px}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.stat{background:var(--ink);padding:18px 18px 20px;display:grid;gap:6px;align-content:start}
+.stat .n{font-family:var(--display);font-size:38px;font-weight:900;line-height:1;font-variant-numeric:tabular-nums}
+.stat .n.red{color:#FF4D57}
+.stat .d{font-size:14px;color:var(--muted)}
+
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:15px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--blush);font-weight:700;background:var(--ink-2)}
+td.f{font-family:var(--mono);font-size:13.5px;white-space:nowrap;color:var(--paper)}
+td.r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+
+/* challenge grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.card{border:1px solid var(--line);padding:16px 18px;display:grid;gap:8px;align-content:start;min-width:0}
+.card h3{font-size:18px;font-weight:800}
+.card .use{font-family:var(--mono);font-size:12.5px;color:var(--blush)}
+.card p{margin:0;font-size:15px}
+
+/* flow */
+ol.flow{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0;border:1px solid var(--line)}
+ol.flow li{padding:16px;border-right:1px solid var(--line);display:grid;gap:6px;align-content:start;counter-increment:s}
+ol.flow li:last-child{border-right:0}
+ol.flow li::before{content:counter(s);font-family:var(--display);font-weight:900;font-size:26px;color:var(--red);line-height:1}
+ol.flow b{font-size:15px}
+ol.flow span{font-size:13.5px;color:var(--muted)}
+@media (max-width:640px){ol.flow li{border-right:0;border-bottom:1px solid var(--line)}}
+
+ul.issues{margin:0;padding:0;list-style:none;display:grid;gap:8px;max-width:76ch}
+ul.issues li{padding-left:22px;position:relative;color:var(--paper)}
+ul.issues li::before{content:"";position:absolute;left:0;top:.6em;width:10px;height:10px;background:var(--red)}
+pre{margin:0;overflow-x:auto;background:var(--ink-2);border:1px solid var(--line);padding:14px 16px;font-family:var(--mono);font-size:13px;line-height:1.6;color:var(--paper)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.two>*{min-width:0}
+footer{padding-block:28px 40px;font-size:13px;color:var(--muted)}
+footer b{color:var(--paper);text-transform:uppercase;letter-spacing:.08em}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">
+      <img src="logos.png" alt="Terumo, powered by Talo">
+      <span class="rule" aria-hidden="true"></span>
+      <div class="eyebrow">Terumo BCT Africa Hackathon 2026<br>Technical phase · 10 to 11 November</div>
+    </div>
+    <h1>Starter dataset<br><span class="tag">From donor to patient</span></h1>
+    <p class="lead">One year of a blood system: who donated, what was collected, where every unit went, which hospitals ran short, and what happened when the power went off. Every team gets the same data, so you can spend your 24 hours building.</p>
+    <div class="notice"><span><b>This data is synthetic.</b> It was generated by a model built on Kenyan geography and published reference figures. No real donor, patient or facility record is included, and the numbers do not describe any real hospital or blood centre.</span></div>
+    <div class="dl" role="group" aria-label="Downloads">
+      <button class="dlbtn primary" id="dl-full" data-zip="1">
+        <span class="t">Download everything</span>
+        <span class="s">ZIP · about 4.5 MB · all 11 CSV files, README, data dictionary and generator</span>
+      </button>
+      <button class="dlbtn" id="dl-readme" data-file="README.md">
+        <span class="t">README</span>
+        <span class="s">Markdown · what the data is and how to use it</span>
+      </button>
+      <button class="dlbtn" id="dl-tpl" data-file="README_TEMPLATE.md">
+        <span class="t">Team README template</span>
+        <span class="s">Markdown · copy into your repository</span>
+      </button>
+      <button class="dlbtn" id="dl-dict" data-file="DATA_DICTIONARY.md">
+        <span class="t">Data dictionary</span>
+        <span class="s">Markdown · every column explained</span>
+      </button>
+    </div>
+    <div class="status" id="status" aria-live="polite"></div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="wrap">
+    <div class="eyebrow">1 November 2025 to 31 October 2026</div>
+    <h2>The year at a glance</h2>
+    <div class="stats">
+      <div class="stat"><div class="n">45,699</div><div class="d">donation attempts. 11% deferred, mostly for low haemoglobin. 7.9% of collected blood reactive for an infection.</div></div>
+      <div class="stat"><div class="n">6 in 10</div><div class="d">donors are students. When schools close in November to January, April and August, shortages follow.</div></div>
+      <div class="stat"><div class="n">87%</div><div class="d">of 17,430 hospital requests fully met. O negative patients are the least likely to get blood.</div></div>
+      <div class="stat"><div class="n">5.2 h</div><div class="d">median wait when a hospital runs out and needs an emergency delivery. Far longer in remote counties.</div></div>
+      <div class="stat"><div class="n red">23%</div><div class="d">of red cell and whole blood units wasted: expired on a shelf or spoiled by a warm fridge, while other sites ran short.</div></div>
+      <div class="stat"><div class="n red">2,119</div><div class="d">units transfused after their fridge or cool box went out of range. Nobody flagged them.</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">How blood moves in the model</div>
+    <h2>The system</h2>
+    <ol class="flow">
+      <li><b>Drive</b><span>People donate at schools, churches, mosques, workplaces and markets.</span></li>
+      <li><b>Test</b><span>Screening takes 1 to 6 days. Reactive donations are discarded.</span></li>
+      <li><b>Process</b><span>Regional centres make red cells, plasma and platelets, or send whole blood.</span></li>
+      <li><b>Deliver</b><span>Routine runs to hospitals 1 to 3 times a week.</span></li>
+      <li><b>Request</b><span>Hospitals use their own stock first, then call for emergency supply.</span></li>
+      <li><b>Expire or spoil</b><span>Red cells last 42 days, platelets 5. Power cuts warm fridges.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">11 tables, joined by IDs · download one at a time if your connection is slow</div>
+    <h2>What is in the box</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>File</th><th>Rows</th><th>What it holds</th><th>Size</th></tr></thead>
+        <tbody>
+          <tr><td class="f">facilities.csv</td><td class="r">47</td><td>6 regional centres, 9 satellite centres and 32 hospitals, with location, power reliability, connectivity and supply links</td><td class="r"><button class="mini dlbtn1" data-file="facilities.csv">6 KB</button></td></tr>
+          <tr><td class="f">routes.csv</td><td class="r">2,162</td><td>Road distance and travel time between every pair of facilities</td><td class="r"><button class="mini dlbtn1" data-file="routes.csv">70 KB</button></td></tr>
+          <tr><td class="f">donors.csv</td><td class="r">43,363</td><td>Donor profiles, with no names or phone numbers</td><td class="r"><button class="mini dlbtn1" data-file="donors.csv">3.5 MB</button></td></tr>
+          <tr><td class="f">drives.csv</td><td class="r">1,091</td><td>Donation drives by venue type</td><td class="r"><button class="mini dlbtn1" data-file="drives.csv">66 KB</button></td></tr>
+          <tr><td class="f">donations.csv</td><td class="r">47,363</td><td>Every donation attempt: deferred, collected, screening result</td><td class="r"><button class="mini dlbtn1" data-file="donations.csv">4.4 MB</button></td></tr>
+          <tr><td class="f">units.csv</td><td class="r">49,426</td><td>Every component made and what happened to it</td><td class="r"><button class="mini dlbtn1" data-file="units.csv">5.8 MB</button></td></tr>
+          <tr><td class="f">transfers.csv</td><td class="r">35,181</td><td>Every movement of a unit, routine and emergency</td><td class="r"><button class="mini dlbtn1" data-file="transfers.csv">4.0 MB</button></td></tr>
+          <tr><td class="f">requests.csv</td><td class="r">17,430</td><td>Hospital requests with urgency, clinical reason and outcome</td><td class="r"><button class="mini dlbtn1" data-file="requests.csv">2.6 MB</button></td></tr>
+          <tr><td class="f">daily_stock.csv</td><td class="r">185,785</td><td>End-of-day stock per facility, component and blood group</td><td class="r"><button class="mini dlbtn1" data-file="daily_stock.csv">5.3 MB</button></td></tr>
+          <tr><td class="f">power_outages.csv</td><td class="r">2,609</td><td>Power cuts and whether backup power kicked in</td><td class="r"><button class="mini dlbtn1" data-file="power_outages.csv">179 KB</button></td></tr>
+          <tr><td class="f">temperature_logs.csv</td><td class="r">399,280</td><td>Hourly blood fridge temperatures</td><td class="r"><button class="mini dlbtn1" data-file="temperature_logs.csv">12.8 MB</button></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Match the data to the problem you applied with</div>
+    <h2>Where to start</h2>
+    <div class="grid">
+      <div class="card"><h3>Emergency access</h3><div class="use">requests · transfers · routes</div><p>Find the nearest compatible unit in real time, predict time-to-blood, route emergency runs.</p></div>
+      <div class="card"><h3>Forecasting</h3><div class="use">requests · donations · drives</div><p>Forecast demand by facility, group and week, and collections around school holidays.</p></div>
+      <div class="card"><h3>Stock-outs</h3><div class="use">daily_stock · requests</div><p>Warn a facility before it runs out. Set reorder levels for each blood group.</p></div>
+      <div class="card"><h3>Redistribution</h3><div class="use">daily_stock · units · routes</div><p>Move units close to expiry from overstocked sites to sites running short.</p></div>
+      <div class="card"><h3>Data quality</h3><div class="use">donors · requests · temperature_logs</div><p>Deduplicate donors, clean facility names, catch sensor glitches and missing receipts.</p></div>
+      <div class="card"><h3>Cold chain</h3><div class="use">temperature_logs · power_outages · units</div><p>Detect excursions, trace exposed units and stop them before they reach a patient.</p></div>
+      <div class="card"><h3>Donors</h3><div class="use">donors · donations · drives</div><p>Turn first-time donors into repeat donors, plan drives for holiday gaps, find rare groups.</p></div>
+      <div class="card"><h3>Analytics</h3><div class="use">everything</div><p>Build the screen a blood service manager would open every morning.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Real systems are messy. So is this one, on purpose.</div>
+    <h2>Known data problems</h2>
+    <ul class="issues">
+      <li>About 450 donors are registered twice under different IDs (same birth date, sex, county and phone last 4 digits).</li>
+      <li>About 1.2% of donor records have no blood group.</li>
+      <li>14% of requests have the hospital name typed differently. Use <code>facility_id</code> as the truth.</li>
+      <li>5% of emergency requests record the patient's group as <code>unknown</code>.</li>
+      <li>About 3% of transfers were never confirmed as received.</li>
+      <li>Temperature loggers drop out for hours, more often on 2G and 3G sites. 60 readings are sensor glitches (-99.0, 99.9, 0.0).</li>
+      <li>Some donors gave blood again before the minimum gap of 3 months for men and 4 for women.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Getting started</div>
+    <h2>First query</h2>
+    <div class="two">
+<pre>import pandas as pd
+
+req = pd.read_csv("requests.csv",
+    parse_dates=["requested_at"])
+unmet = req[req.outcome != "fulfilled"]
+unmet.groupby("patient_blood_group").size()</pre>
+<pre>-- SQL (load the CSVs into SQLite, DuckDB or Postgres)
+-- where does O negative run out?
+SELECT facility_id, COUNT(*) AS unmet
+FROM requests
+WHERE patient_blood_group = 'O-'
+  AND outcome &lt;&gt; 'fulfilled'
+GROUP BY facility_id
+ORDER BY unmet DESC;</pre>
+    </div>
+    <p style="margin-top:16px">Times are East Africa Time. Units collected in September and October 2025 that were still on the shelf on 1 November are included and marked <code>opening_stock</code>. <code>gen.py</code> in the download rebuilds everything, including a ready-made SQLite database; change the seed for a fresh version.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Rules</div>
+    <h2>Using the data</h2>
+    <ul class="issues">
+      <li>Use it freely in your build and demo. Say in your submission that you used the starter dataset.</li>
+      <li>Do not present findings from it as facts about real Kenyan facilities.</li>
+      <li>You may add real data. Cite where it came from.</li>
+      <li>AI coding tools (ChatGPT, Claude, Copilot, Cursor and similar) are allowed. Say which ones you used and for what in your README. Every line you submit must be written during the 24 hours, and your team must be able to explain it.</li>
+    </ul>
+    <h3 style="font-size:16px;margin-top:28px;margin-bottom:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--blush)">Sources for the model's figures</h3>
+    <ul class="issues">
+      <li>Infection rates among donors (HBV 3.5%, HCV 3.2%, syphilis 1.6%, HIV 1.2%): <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5848540" target="_blank" rel="noopener">study of voluntary donors in Homa Bay, Kisumu and Siaya</a></li>
+      <li>National collection gap, staffing and cold chain gaps: <a href="https://nation.africa/kenya/news/report-reveals-shocking-details-of-blood-transfusion-centres-3449136" target="_blank" rel="noopener">Daily Nation report on blood transfusion centres</a></li>
+      <li>Blood group mix: approximation from Kenyan donor studies and <a href="https://www.standardmedia.co.ke/health/health-science/article/2001438104/check-spouses-blood-group-before-marriage" target="_blank" rel="noopener">KNBTS comments in The Standard</a></li>
+      <li>Shelf lives follow standard practice. Seasonality follows the Kenyan school calendar, holiday road traffic and malaria seasons.</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap"><b>Building better blood systems for Africa</b><br>Convened by Terumo BCT · Delivered by Talo Africa</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+(function(){
+  var FILES=["README.md","DATA_DICTIONARY.md","gen.py","facilities.csv","routes.csv","donors.csv","drives.csv","donations.csv","units.csv","transfers.csv","requests.csv","daily_stock.csv","power_outages.csv","temperature_logs.csv"];
+  var ZIPNAME="terumo-hackathon-2026-starter-dataset.zip";
+  var statusEl=document.getElementById('status');
+  var dlPromise=(window.claude&&window.claude.use)?window.claude.use('downloads'):Promise.resolve(null);
+  function say(t,ok){statusEl.textContent=t;statusEl.className='status'+(ok?' ok':'');}
+  async function getDl(){var d=await dlPromise.catch(function(){return null;});if(!d){say('Downloads are not available in this view. Open the page in a web browser, or ask the organisers for the files.');}return d;}
+  function fail(e){var c=e&&e.code;
+    if(c==='declined') say('Download cancelled.');
+    else if(c==='rate_limited') say('A download prompt is already open. Finish that one first.');
+    else say('That download did not work. Try again, or download the files one at a time below.');}
+  async function saveFile(name,btn){
+    var d=await getDl(); if(!d) return;
+    btn.disabled=true; say('Preparing '+name+'…');
+    try{var r=await fetch(name); if(!r.ok) throw new Error('fetch');
+      var blob=await r.blob(); var res=await d.save({filename:name.replace(/\.py$/,'.txt'),data:blob});
+      say('Saved '+name+'.',true);}catch(e){fail(e);}finally{btn.disabled=false;}
+  }
+  async function saveZip(btn){
+    var d=await getDl(); if(!d) return;
+    if(typeof JSZip==='undefined'){say('The zip tool did not load. Download the files one at a time below.');return;}
+    btn.disabled=true;
+    try{var zip=new JSZip(); var folder=zip.folder('terumo-hackathon-2026-starter-dataset');
+      for(var i=0;i<FILES.length;i++){say('Fetching '+FILES[i]+' ('+(i+1)+' of '+FILES.length+')…');
+        var r=await fetch(FILES[i]); if(!r.ok) throw new Error('fetch');
+        folder.file(FILES[i], await r.arrayBuffer());}
+      say('Compressing…');
+      var blob=await zip.generateAsync({type:'blob',compression:'DEFLATE',compressionOptions:{level:6}});
+      await d.save({filename:ZIPNAME,data:blob}); say('Saved '+ZIPNAME+'.',true);
+    }catch(e){fail(e);}finally{btn.disabled=false;}
+  }
+  [].slice.call(document.querySelectorAll('.dlbtn,.dlbtn1')).forEach(function(b){
+    b.addEventListener('click',function(){ if(b.getAttribute('data-zip')) saveZip(b); else saveFile(b.getAttribute('data-file'),b); });
+  });
+})();
+</script>
+
+</body></html>
