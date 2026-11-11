@@ -4,5 +4,6 @@ streamlit-folium
 pandas
 scikit-learn
 fastapi
-uvicorntwilio
+uvicorn
+africastalking
 python-dotenv
