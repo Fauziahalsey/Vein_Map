@@ -1,0 +1,199 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Blood unit custody</title>
+<style>body{font:16px system-ui;max-width:480px;margin:auto;padding:12px}
+select,input,button{width:100%;padding:12px;margin:6px 0;font-size:16px;box-sizing:border-box}
+#bar{padding:8px;border-radius:6px;background:#eee}
+#video{display:none;width:100%;background:#000;border-radius:6px;min-height:200px}</style></head><body>
+<h3>Record unit custody</h3>
+<div id="bar"></div>
+<div id="login" style="display:none">
+  <input id="lu" placeholder="Username" autocapitalize="none">
+  <input id="lp" type="password" placeholder="Password">
+  <button id="lb">Log in</button>
+  <pre id="lmsg"></pre>
+</div>
+<div id="app" style="display:none">
+  <div>Signed in: <b id="who"></b> <a href="#" id="logout">Log out</a></div>
+  <input id="unit" placeholder="Unit ID" autofocus>
+  <button id="scanbtn" type="button">Scan with camera</button>
+  <video id="video" playsinline muted autoplay></video>
+  <select id="event">
+    <option value="collected">Collected</option>
+    <option value="at_centre">At centre</option>
+    <option value="in_transit">In transit</option>
+    <option value="at_hospital">At hospital</option>
+    <option value="transfused">Transfused</option>
+    <option value="discarded">Discarded (incinerated)</option>
+  </select>
+  <select id="fac"></select>
+  <button id="go">Record</button>
+</div><div id="login" style="display:none">
+  <input id="lu" placeholder="Username" autocapitalize="none">
+  <input id="lp" type="password" placeholder="Password">
+  <button id="lb">Log in</button>
+  <pre id="lmsg"></pre>
+</div>
+<div id="app" style="display:none">
+  <div>Signed in: <b id="who"></b> <a href="#" id="logout">Log out</a></div>
+  <input id="unit" placeholder="Unit ID" autofocus>
+  <button id="scanbtn" type="button">Scan with camera</button>
+  <video id="video" playsinline muted autoplay></video>
+  <select id="event">
+    <option value="collected">Collected</option>
+    <option value="at_centre">At centre</option>
+    <option value="in_transit">In transit</option>
+    <option value="at_hospital">At hospital</option>
+    <option value="transfused">Transfused</option>
+    <option value="discarded">Discarded (incinerated)</option>
+  </select>
+  <select id="fac"></select>
+  <button id="go">Record</button>
+</div>
+<pre id="msg"></pre>
+<script>
+const $ = id => document.getElementById(id);
+const getQ = () => JSON.parse(localStorage.getItem('queue') || '[]');
+const setQ = q => localStorage.setItem('queue', JSON.stringify(q));
+const uid = () => crypto.randomUUID ? crypto.randomUUID() : Date.now() + '-' + Math.random();
+const nowLocal = () => new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 19);
+
+const p = new URLSearchParams(location.search);
+if (p.get('unit')) $('unit').value = p.get('unit');
+
+
+fetch('facilities.json').then(r => r.json()).then(f => {
+  $('fac').innerHTML = f.map(x => `<option value="${x.facility_id}">${x.name}</option>`).join('');
+});
+
+function show() {
+  $('bar').textContent = (navigator.onLine ? 'Online' : 'Offline') + ' · ' + getQ().length + ' scan(s) waiting to sync';
+}
+
+const tok = () => localStorage.getItem('token');
+
+function gate() {
+  const on = !!tok();
+  $('login').style.display = on ? 'none' : 'block';
+  $('app').style.display = on ? 'block' : 'none';
+  $('who').textContent = localStorage.getItem('who') || '';
+}
+
+$('lb').onclick = async () => {
+  try {
+    const r = await fetch('/api/login', {method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({username: $('lu').value.trim(), password: $('lp').value})});
+    if (!r.ok) throw 0;
+    const d = await r.json();
+    localStorage.setItem('token', d.token);
+    localStorage.setItem('who', d.username + ' (' + d.role + ')');
+    $('lp').value = ''; $('lmsg').textContent = ''; gate(); sync();
+  } catch {
+    $('lmsg').textContent = navigator.onLine ? 'Wrong username or password'
+      : 'First login needs a connection. After that, scanning works offline.';
+  }
+};
+
+$('logout').onclick = e => {
+  e.preventDefault();
+  localStorage.removeItem('token'); localStorage.removeItem('who'); gate();
+};
+
+async function sync() {
+  const left = [];
+  for (const e of getQ()) {
+    try {
+      const {token, ...body} = e;
+      const r = await fetch('/api/scan', {method: 'POST',
+        headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token},
+        body: JSON.stringify(body)});
+      if (!r.ok) throw 0;
+    } catch { left.push(e); }
+  }
+  setQ(left); show();
+}
+
+$('go').onclick = () => {
+  if (!$('unit').value) { $('msg').textContent = 'Enter or scan a unit ID'; return; }
+  const q = getQ();
+  q.push({event_id: uid(), unit_id: $('unit').value.trim(), event_type: $('event').value,
+          facility_id: $('fac').value, scanned_at: nowLocal(), token: tok()});
+  setQ(q);
+  $('msg').textContent = 'Saved on this phone. Syncing when connected.';
+  $('unit').value = ''; $('unit').focus();
+  show(); sync();
+};
+
+// handheld scanners type the code then press Enter
+$('unit').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); $('go').click(); } });
+
+// ---------- camera scanning ----------
+let stream = null, timer = null, reader = null;
+
+const clean = raw => {
+  try { const u = new URL(raw); if (u.searchParams.get('unit')) return u.searchParams.get('unit'); } catch {}
+  return raw.trim();
+};
+
+function stop() {
+  if (timer) clearInterval(timer);
+  if (stream) stream.getTracks().forEach(t => t.stop());
+  if (reader) { try { reader.reset(); } catch {} }
+  timer = stream = reader = null;
+  $('video').style.display = 'none';
+  $('scanbtn').textContent = 'Scan with camera';
+}
+
+function got(raw) {
+  $('unit').value = clean(raw);
+  $('msg').textContent = 'Scanned: ' + $('unit').value;
+  if (navigator.vibrate) navigator.vibrate(100);
+  stop();
+}
+
+function loadZX() {
+  return new Promise((ok, no) => {
+    if (window.ZXing) return ok();
+    const s = document.createElement('script');
+    s.src = '/zxing.min.js'; s.onload = ok;
+    s.onerror = () => no(new Error('Could not load /zxing.min.js'));
+    document.head.appendChild(s);
+  });
+}
+
+$('scanbtn').onclick = async () => {
+  if (stream || reader) return stop();
+  $('msg').textContent = 'Starting camera...';
+  try {
+    if (!window.isSecureContext) throw new Error('Camera needs HTTPS or localhost');
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error('This browser has no camera API');
+    $('video').style.display = 'block';
+    $('scanbtn').textContent = 'Stop scanning';
+
+    if ('BarcodeDetector' in window) {
+      stream = await navigator.mediaDevices.getUserMedia({video: {facingMode: {ideal: 'environment'}}});
+      $('video').srcObject = stream;
+      await $('video').play();
+      const det = new BarcodeDetector({formats: ['qr_code', 'code_128', 'data_matrix', 'code_39']});
+      timer = setInterval(async () => {
+        try { const c = await det.detect($('video')); if (c.length) got(c[0].rawValue); } catch {}
+      }, 300);
+    } else {
+      await loadZX();
+      reader = new ZXing.BrowserMultiFormatReader();
+      await reader.decodeFromVideoDevice(null, 'video', (r) => { if (r) got(r.getText()); });
+    }
+    $('msg').textContent = 'Point the camera at the code.';
+  } catch (err) {
+    stop();
+    $('msg').textContent = 'Camera error: ' + (err && (err.name + ' ' + err.message) || err) +
+      '\nType the ID or use a handheld scanner.';
+  }
+};
+
+window.addEventListener('online', sync);
+window.addEventListener('offline', show);
+setInterval(sync, 30000);
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+gate(); show(); sync();
+</script></body></html>
