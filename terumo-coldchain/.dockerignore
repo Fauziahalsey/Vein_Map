@@ -5,4 +5,4 @@ data/gen.py
 data/index.html
 data/logos.png
 data/TerumoDataset
-__pycache__
+__pycache__.env

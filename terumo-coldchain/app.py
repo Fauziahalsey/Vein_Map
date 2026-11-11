@@ -4,6 +4,8 @@ import folium
 import streamlit as st
 from streamlit_folium import st_folium
 import coldchain, auth, model
+import donor_msgs
+
 
 st.set_page_config(page_title="Cold Chain", layout="wide")
 
@@ -62,7 +64,9 @@ def rate_color(r):
 
 
 fac = load_facilities()
-tab_map, tab_alerts, tab_audit = st.tabs(["Map", "Fridge alerts", "Audit log"])
+# tab_map, tab_alerts, tab_audit = st.tabs(["Map", "Fridge alerts", "Audit log"])
+tab_map, tab_alerts, tab_donors, tab_audit = st.tabs(["Map", "Fridge alerts", "Donor thank-yous", "Audit log"])
+
 
 # ---------- MAP ----------
 with tab_map:

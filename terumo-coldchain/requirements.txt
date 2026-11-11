@@ -4,4 +4,5 @@ streamlit-folium
 pandas
 scikit-learn
 fastapi
-uvicorn
+uvicorntwilio
+python-dotenv
