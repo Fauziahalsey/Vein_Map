@@ -1,0 +1,7 @@
+streamlit
+folium
+streamlit-folium
+pandas
+scikit-learn
+fastapi
+uvicorn

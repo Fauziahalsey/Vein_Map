@@ -104,14 +104,16 @@ with tab_alerts:
                "If the model is switched off, the outage + no-backup rule takes over.")
     use_model = st.toggle("Use AI model (off = rule fallback)", value=True)
     th = st.slider("Alert threshold (higher = fewer, more certain alerts)", 0.05, 0.5, 0.2, 0.05)
+    @st.cache_resource
+    def get_eval():
+        return model.evaluate(threshold=0.2)   # p doesn't depend on the threshold
+
     try:
-        @st.cache_resource
-        def get_model():
-            return model.evaluate.__globals__["HistGradientBoostingClassifier"], None
-        mdl, test = model.evaluate(threshold=th)
+        _, test = get_eval()
     except Exception as e:
         st.error(f"Model unavailable ({e}). Rule fallback in use.")
         use_model, test = False, None
+
 
     if test is not None:
         test = test.copy()

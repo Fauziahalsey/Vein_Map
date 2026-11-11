@@ -1,0 +1,8 @@
+.venv
+.git
+scans.db
+data/gen.py
+data/index.html
+data/logos.png
+data/TerumoDataset
+__pycache__
